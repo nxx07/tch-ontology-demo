@@ -43,51 +43,60 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "def
 #   Object Properties
 ############################
 
+# Compositional Relations (组成关系)
 # Pattern/Syndrome has part Symptom/Sign
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
-
-# Symptom/Sign inheres in Organ
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
-
-# Sign located in Organ
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001025>))
-
-# Pattern causally downstream of Pathomechanism
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002404>))
-
-# Herb has disposition/quality
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000091>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000086>))
-
-# Treatment has input Pattern
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))
-
-# Diagnostic/Treatment is about Pattern/Disease
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000136>))
-
-# Disease has symptom
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002452>))
-
-# Disease realized in Pathomechanism
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000054>))
-
-# Meridian connected to Viscera
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002170>))
-
-# Occurs in
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))
-
 # Part of
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 
+# Inherence Relations (依存关系)
+# Symptom/Sign inheres in Organ
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
+# Bearer of (inverse of inheres in)
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000053>))
+
+# Location Relations (定位关系)
+# Sign located in Organ
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001025>))
+# Occurs in
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))
+
+# Causal Relations (因果关系)
+# Pattern causally downstream of Pathomechanism
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002404>))
 # Causally related to
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002410>))
 
-# Depends on (context-sensitive)
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002502>))
+# Functional Relations (功能关系)
+# Herb has disposition/quality
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000091>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000086>))
+# Realized in
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000054>))
+# Has role
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000087>))
 
+# Information Relations (信息关系)
+# Treatment has input Pattern
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))
+# Has output
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002234>))
+# Diagnostic/Treatment is about Pattern/Disease
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000136>))
 # Is concretized by
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000165>))
+
+# Manifestation Relations (表现关系)
+# Disease has symptom
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002452>))
+# NOTE: For Sign, we use BFO:0000051 (has part), not RO:0002451
+# RO:0002451 is 'transmitted by', NOT 'has sign'
+
+# Connection Relations (连接关系)
+# Meridian connected to Viscera
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002170>))
+# Depends on (context-sensitive)
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002502>))
 
 
 ############################

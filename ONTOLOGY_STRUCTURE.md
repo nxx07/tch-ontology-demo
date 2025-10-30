@@ -247,8 +247,7 @@ This ontology (TCH Ontology) is a formal knowledge representation system for Tra
 
 ### 表现关系 (Manifestation Relations)
 - `has symptom` (RO:0002452) - 具有症状
-- `has sign` (RO:0002451) - 具有征象
-- `has manifestation` (RO:0002556) - 具有表现
+- `has part` (BFO:0000051) - 具有部分（用于 Sign）
 
 ### 连接关系 (Connection Relations)
 - `connected to` (RO:0002170) - 连接到
