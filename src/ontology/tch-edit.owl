@@ -6,6 +6,7 @@ Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
+Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/tch.owl>
@@ -16,31 +17,337 @@ Import(<http://purl.obolibrary.org/obo/tch/imports/pato_import.owl>)
 Import(<http://purl.obolibrary.org/obo/tch/imports/iao_import.owl>)
 
 
-Annotation(dcterms:description "None")
+Annotation(dcterms:description "An ontology for Traditional Chinese Medicine focusing on Cold-Heat patterns, syndromes, symptoms, signs, and therapeutic principles.")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
-Annotation(dcterms:title "tch-ontology-demo")
+Annotation(dcterms:title "Traditional Chinese Medicine Cold-Heat Pattern Ontology")
 
-
-Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000000>))
-Declaration(AnnotationProperty(dcterms:description))
-Declaration(AnnotationProperty(dcterms:license))
-Declaration(AnnotationProperty(dcterms:title))
 
 ############################
 #   Annotation Properties
 ############################
 
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+Declaration(AnnotationProperty(oboInOwl:hasDbXref))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+
 AnnotationAssertion(rdfs:label dcterms:description "description")
 AnnotationAssertion(rdfs:label dcterms:license "license")
 AnnotationAssertion(rdfs:label dcterms:title "title")
+AnnotationAssertion(rdfs:label oboInOwl:hasDbXref "database cross reference")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+
+
+############################
+#   Object Properties
+############################
+
+# Pattern/Syndrome has part Symptom/Sign
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
+
+# Symptom/Sign inheres in Organ
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
+
+# Sign located in Organ
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001025>))
+
+# Pattern causally downstream of Pathomechanism
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002404>))
+
+# Herb has disposition/quality
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000091>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000086>))
+
+# Treatment has input Pattern
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))
+
+# Diagnostic/Treatment is about Pattern/Disease
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000136>))
+
+# Disease has symptom
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002452>))
+
+# Disease realized in Pathomechanism
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000054>))
+
+# Meridian connected to Viscera
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002170>))
+
+# Occurs in
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))
+
+# Part of
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
+
+# Causally related to
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002410>))
+
+# Depends on (context-sensitive)
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002502>))
+
+# Is concretized by
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000165>))
+
 
 ############################
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/TCH_0000000> (root node)
+# Root node
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000000>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000000> "Traditional Chinese Medicine entity"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000000> "中医实体"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000000> "Root class for all Traditional Chinese Medicine entities."@en)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000000> "root node"@en)
+
+#################################################################
+# Pattern/Syndrome Classes (证候) - Disposition
+#################################################################
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000100>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000100> "Pattern"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000100> "证候"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000100> "An integrated constellation of symptoms and signs reflecting a relatively stable pathophysiological tendency in TCM."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000100> "在一定病因病机作用下由相互联系的症状与体征构成的总体倾向。"@zh)
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000100> "ICD-11:TM")
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000100> <http://purl.obolibrary.org/obo/BFO_0000016>)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000100> <http://purl.obolibrary.org/obo/TCH_0000000>)
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000101>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000101> "Cold pattern"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000101> "寒证"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000101> "A pattern characterized by aversion to cold, cold limbs, preference for warmth, pale tongue and slow pulse, indicating yang deficiency or excess cold."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000101> "以恶寒、肢冷、喜热、舌淡、脉迟等为主征，反映阳气不足或阴寒偏盛的倾向。"@zh)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000101> <http://purl.obolibrary.org/obo/TCH_0000100>)
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000102>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000102> "Heat pattern"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000102> "热证"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000102> "A pattern with fever, thirst, red face/throat, red tongue and rapid pulse, indicating excess heat or internal heat due to yin deficiency."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000102> "以发热、口渴、面赤/咽红、舌红、脉数等为主征，反映实热或阴虚内热的倾向。"@zh)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000102> <http://purl.obolibrary.org/obo/TCH_0000100>)
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000103>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000103> "Cold-Heat complex pattern"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000103> "寒热错杂证"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000103> "A compound pattern where cold and heat manifestations co-exist or alternate across sites or stages."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000103> "寒象与热象并见或在不同部位/阶段交替出现的一类复合证候。"@zh)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000103> <http://purl.obolibrary.org/obo/TCH_0000100>)
+
+
+#################################################################
+# TCM Disease Classes (中医疾病) - Disposition
+#################################################################
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000200>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000200> "TCM disease"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000200> "中医疾病"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000200> "A disease-level disposition defined by TCM nosology and pathomechanism that may span multiple patterns over time."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000200> "以病名与病机为核心、可跨多个证候阶段的疾病性倾向。"@zh)
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000200> "MONDO")
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000200> "ICD-11:MMS")
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000200> <http://purl.obolibrary.org/obo/BFO_0000016>)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000200> <http://purl.obolibrary.org/obo/TCH_0000000>)
+
+
+#################################################################
+# Symptom and Sign Classes (症状与征象) - Quality
+#################################################################
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000300>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000300> "Symptom"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000300> "症状"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000300> "Patient-experienced qualities indicating abnormal states."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000300> "患者主观感受到的异常体验。"@zh)
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000300> "HPO")
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000300> <http://purl.obolibrary.org/obo/BFO_0000019>)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000300> <http://purl.obolibrary.org/obo/TCH_0000000>)
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000301>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000301> "Sign"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000301> "征象"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000301> "Clinician-observed or measured abnormal features."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000301> "医者客观观察或测得的异常征象。"@zh)
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000301> "ISO:23961")
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000301> <http://purl.obolibrary.org/obo/BFO_0000019>)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000301> <http://purl.obolibrary.org/obo/TCH_0000000>)
+
+
+#################################################################
+# Organ and Viscera System (器官与脏腑系统) - Material Entity
+#################################################################
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000400>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000400> "Organ"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000400> "器官"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000400> "Anatomical structures in the body context of TCM."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000400> "中医语境下的人体器官结构。"@zh)
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000400> "UBERON")
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000400> <http://purl.obolibrary.org/obo/BFO_0000040>)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000400> <http://purl.obolibrary.org/obo/TCH_0000000>)
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000401>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000401> "Viscera system"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000401> "脏腑系统"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000401> "Functional organ systems in TCM theory."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000401> "中医理论中的功能性脏腑系统。"@zh)
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000401> "UBERON")
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000401> <http://purl.obolibrary.org/obo/BFO_0000027>)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000401> <http://purl.obolibrary.org/obo/TCH_0000000>)
+
+
+#################################################################
+# Meridian and Acupoint (经络与腧穴) - Immaterial Entity (Site)
+#################################################################
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000500>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000500> "Meridian"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000500> "经络"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000500> "Channels through which qi and blood flow in TCM theory."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000500> "中医理论中气血运行的通路。"@zh)
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000500> "ADO")
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000500> <http://purl.obolibrary.org/obo/BFO_0000029>)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000500> <http://purl.obolibrary.org/obo/TCH_0000000>)
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000501>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000501> "Acupoint"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000501> "腧穴"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000501> "Specific points on meridians used for acupuncture and moxibustion."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000501> "经络上用于针灸的特定穴位点。"@zh)
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000501> "ADO")
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000501> "WHO")
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000501> <http://purl.obolibrary.org/obo/BFO_0000029>)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000501> <http://purl.obolibrary.org/obo/TCH_0000000>)
+
+
+#################################################################
+# Herb and Properties (中草药及药性) - Material Entity & Disposition/Quality
+#################################################################
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000600>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000600> "Herb"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000600> "中草药"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000600> "Traditional Chinese medicinal materials from natural sources."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000600> "源于自然的中医药用材料。"@zh)
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000600> "TCDO")
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000600> "CHEBI")
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000600> <http://purl.obolibrary.org/obo/BFO_0000040>)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000600> <http://purl.obolibrary.org/obo/TCH_0000000>)
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000601>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000601> "TCM nature"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000601> "药性"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000601> "Temperature property of herbs (cold, cool, warm, hot)."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000601> "药物的温热寒凉属性倾向。"@zh)
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000601> "TCDO")
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000601> <http://purl.obolibrary.org/obo/BFO_0000016>)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000601> <http://purl.obolibrary.org/obo/TCH_0000000>)
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000602>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000602> "TCM flavor"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000602> "药味"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000602> "Taste properties of herbs (pungent, sweet, bitter, sour, salty)."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000602> "药物的辛甘苦酸咸等味道属性。"@zh)
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000602> "TCDO")
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000602> <http://purl.obolibrary.org/obo/BFO_0000019>)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000602> <http://purl.obolibrary.org/obo/TCH_0000000>)
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000603>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000603> "Channel tropism"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000603> "归经"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000603> "Disposition of herbs to act on specific meridians."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000603> "药物作用于特定经络的倾向。"@zh)
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000603> "TCDO")
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000603> <http://purl.obolibrary.org/obo/BFO_0000016>)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000603> <http://purl.obolibrary.org/obo/TCH_0000000>)
+
+
+#################################################################
+# Formula (方剂) - Information Content Entity
+#################################################################
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000700>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000700> "Formula"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000700> "方剂"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000700> "Traditional Chinese Medicine prescription combining multiple herbs."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000700> "多味中药配伍组成的处方。"@zh)
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000700> "DRON")
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000700> <http://purl.obolibrary.org/obo/IAO_0000104>)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000700> <http://purl.obolibrary.org/obo/TCH_0000000>)
+
+
+#################################################################
+# Therapeutic Principles and Methods (治则与治法) - Plan Specification
+#################################################################
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000800>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000800> "Therapeutic principle"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000800> "治则"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000800> "General guiding principles for treatment strategies."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000800> "治疗的总体指导原则。"@zh)
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000800> "IAO")
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000800> <http://purl.obolibrary.org/obo/IAO_0000104>)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000800> <http://purl.obolibrary.org/obo/TCH_0000000>)
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000801>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000801> "Therapeutic method"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000801> "治法"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000801> "Specific treatment methods derived from therapeutic principles."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000801> "由治则派生的具体治疗方法。"@zh)
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000801> "IAO")
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000801> <http://purl.obolibrary.org/obo/IAO_0000104>)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000801> <http://purl.obolibrary.org/obo/TCH_0000000>)
+
+
+#################################################################
+# Diagnostic and Pattern Differentiation (诊断与辨证) - Process & ICE
+#################################################################
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000900>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000900> "Pattern differentiation"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000900> "辨证"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000900> "The process of analyzing symptoms and signs to identify patterns."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000900> "分析症状体征以识别证候的过程。"@zh)
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000900> "OBI")
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000900> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000900> <http://purl.obolibrary.org/obo/TCH_0000000>)
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000901>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000901> "Diagnostic assertion"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000901> "诊断"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000901> "A conclusion statement about a patient's pattern or disease."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000901> "关于患者证候或疾病的结论性陈述。"@zh)
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000901> "OGMS")
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000901> <http://purl.obolibrary.org/obo/IAO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000901> <http://purl.obolibrary.org/obo/TCH_0000000>)
+
+
+#################################################################
+# Pathomechanism (病机) - Process
+#################################################################
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000A00>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000A00> "Pathomechanism"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000A00> "病机"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000A00> "The pathological mechanism of disease occurrence and development in TCM."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000A00> "疾病发生、发展的病理机制。"@zh)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000A00> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000A00> <http://purl.obolibrary.org/obo/TCH_0000000>)
+
+
+#################################################################
+# Environment (环境) - Material Entity
+#################################################################
+
+Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000B00>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000B00> "Environment"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000B00> "环境"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000B00> "Environmental factors such as seasons and climate affecting patterns."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000B00> "影响证候的季节、气候等环境因素。"@zh)
+AnnotationAssertion(oboInOwl:hasDbXref <http://purl.obolibrary.org/obo/TCH_0000B00> "ENVO")
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000B00> <http://purl.obolibrary.org/obo/BFO_0000040>)
+SubClassOf(<http://purl.obolibrary.org/obo/TCH_0000B00> <http://purl.obolibrary.org/obo/TCH_0000000>)
 
 
 )
