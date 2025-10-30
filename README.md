@@ -66,24 +66,27 @@ An ontology for Traditional Chinese Medicine focusing on Cold-Heat patterns (寒
 
 ## Main Content | 主要内容
 
-The ontology includes **11 major categories** organized hierarchically:
+The ontology includes **11 major categories** organized hierarchically with a **7-digit ID system** providing capacity for **10 million terms**:
 
-本体包含 **11 个主要类别**，按层级组织：
+本体包含 **11 个主要类别**，采用 **7 位数字 ID 系统**，可容纳 **1000 万条术语**，按层级组织：
 
-| ID Range | Category (EN) | 类别 (ZH) | BFO Category | Count |
-|----------|---------------|-----------|--------------|-------|
-| TCH_0000100-0000199 | Pattern/Syndrome | 证候/证 | Disposition | 4 |
-| TCH_0000200-0000299 | TCM Disease | 中医疾病 | Disposition | 1 |
-| TCH_0000300-0000399 | Symptom & Sign | 症状与征象 | Quality | 2 |
-| TCH_0000400-0000499 | Organ & Viscera | 器官与脏腑系统 | Material Entity | 2 |
-| TCH_0000500-0000599 | Meridian & Acupoint | 经络与腧穴 | Immaterial Entity (Site) | 2 |
-| TCH_0000600-0000699 | Herb & Properties | 中草药及药性 | Material Entity / Disposition / Quality | 4 |
-| TCH_0000700-0000799 | Formula | 方剂 | Information Content Entity | 1 |
-| TCH_0000800-0000899 | Therapeutic | 治则与治法 | Plan Specification | 2 |
-| TCH_0000900-0000999 | Diagnostic | 诊断与辨证 | Process / ICE | 2 |
-| TCH_0000A00-0000AFF | Pathomechanism | 病机 | Process | 1 |
-| TCH_0000B00-0000BFF | Environment | 环境 | Material Entity | 1 |
+| ID Range | Category (EN) | 类别 (ZH) | Capacity | BFO Category | Current Count |
+|----------|---------------|-----------|----------|--------------|---------------|
+| TCH_0001000-0099999 | Pattern/Syndrome | 证候/证 | 99,000 | Disposition | 4 |
+| TCH_0100000-0199999 | TCM Disease | 中医疾病 | 100,000 | Disposition | 1 |
+| TCH_0200000-0499999 | Symptom | 症状 | 300,000 | Quality | 1 |
+| TCH_0500000-0799999 | Sign | 征象 | 300,000 | Quality | 1 |
+| TCH_0800000-0899999 | Organ & Viscera | 器官与脏腑系统 | 100,000 | Material Entity | 2 |
+| TCH_0900000-0999999 | Meridian & Acupoint | 经络与腧穴 | 100,000 | Immaterial Entity | 2 |
+| TCH_1000000-2999999 | Herb | 中草药 | 2,000,000 | Material Entity | 1 |
+| TCH_3000000-3999999 | Herb Properties | 药性属性 | 1,000,000 | Disposition / Quality | 3 |
+| TCH_4000000-5999999 | Formula | 方剂 | 2,000,000 | ICE | 1 |
+| TCH_6000000-6999999 | Therapeutic | 治则与治法 | 1,000,000 | Plan Specification | 2 |
+| TCH_7000000-7999999 | Diagnostic | 诊断与辨证 | 1,000,000 | Process / ICE | 2 |
+| TCH_8000000-8999999 | Pathomechanism | 病机 | 1,000,000 | Process | 1 |
+| TCH_9000000-9999999 | Environment | 环境 | 1,000,000 | Material Entity | 1 |
 
+**Total Capacity | 总容量**: 10,000,000 IDs  
 **Total Classes | 类总数**: 22 core classes + 1 root class
 
 ---

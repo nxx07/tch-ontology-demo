@@ -12,13 +12,14 @@ This ontology (TCH Ontology) is a formal knowledge representation system for Tra
 
 ## 本体类别结构 / Ontology Class Structure
 
-### 1. 证候类 (Pattern/Syndrome) - TCH_0000100 系列
-**BFO 范畴**: Disposition (倾向性)
+### 1. 证候类 (Pattern/Syndrome) - TCH_0001000 系列
+**BFO 范畴**: Disposition (倾向性)  
+**ID 范围**: TCH_0001000 - TCH_0099999 (容量: 99,000)
 
-- **TCH_0000100** - Pattern (证候/证)
-  - **TCH_0000101** - Cold pattern (寒证)
-  - **TCH_0000102** - Heat pattern (热证)
-  - **TCH_0000103** - Cold-Heat complex pattern (寒热错杂证)
+- **TCH_0001000** - Pattern (证候/证)
+  - **TCH_0001001** - Cold pattern (寒证)
+  - **TCH_0001002** - Heat pattern (热证)
+  - **TCH_0001003** - Cold-Heat complex pattern (寒热错杂证)
 
 **定义**: 在一定病因病机作用下由相互联系的症状与体征构成的总体倾向。  
 **外部映射**: ICD-11 TM (Traditional Medicine), OGMS
@@ -29,10 +30,11 @@ This ontology (TCH Ontology) is a formal knowledge representation system for Tra
 
 ---
 
-### 2. 中医疾病类 (TCM Disease) - TCH_0000200 系列
-**BFO 范畴**: Disposition (倾向性)
+### 2. 中医疾病类 (TCM Disease) - TCH_0100000 系列
+**BFO 范畴**: Disposition (倾向性)  
+**ID 范围**: TCH_0100000 - TCH_0199999 (容量: 100,000)
 
-- **TCH_0000200** - TCM disease (中医疾病)
+- **TCH_0100000** - TCM disease (中医疾病)
 
 **定义**: 以病名与病机为核心、可跨多个证候阶段的疾病性倾向。  
 **外部映射**: MONDO, DOID, ICD-11 MMS, OGMS
@@ -45,11 +47,14 @@ This ontology (TCH Ontology) is a formal knowledge representation system for Tra
 
 ---
 
-### 3. 症状与征象类 (Symptom & Sign) - TCH_0000300 系列
-**BFO 范畴**: Quality (性质)
+### 3. 症状与征象类 (Symptom & Sign) - TCH_0200000 & TCH_0500000 系列
+**BFO 范畴**: Quality (性质)  
+**ID 范围**: 
+- Symptom: TCH_0200000 - TCH_0499999 (容量: 300,000)
+- Sign: TCH_0500000 - TCH_0799999 (容量: 300,000)
 
-- **TCH_0000300** - Symptom (症状)
-- **TCH_0000301** - Sign (征象)
+- **TCH_0200000** - Symptom (症状)
+- **TCH_0500000** - Sign (征象)
 
 **定义**:
 - 症状: 患者主观感受到的异常体验
@@ -64,11 +69,12 @@ This ontology (TCH Ontology) is a formal knowledge representation system for Tra
 
 ---
 
-### 4. 器官与脏腑系统类 (Organ & Viscera) - TCH_0000400 系列
-**BFO 范畴**: Material Entity (物质实体)
+### 4. 器官与脏腑系统类 (Organ & Viscera) - TCH_0800000 系列
+**BFO 范畴**: Material Entity (物质实体)  
+**ID 范围**: TCH_0800000 - TCH_0899999 (容量: 100,000)
 
-- **TCH_0000400** - Organ (器官)
-- **TCH_0000401** - Viscera system (脏腑系统)
+- **TCH_0800000** - Organ (器官)
+- **TCH_0800001** - Viscera system (脏腑系统)
 
 **定义**:
 - 器官: 中医语境下的人体器官结构
@@ -82,11 +88,12 @@ This ontology (TCH Ontology) is a formal knowledge representation system for Tra
 
 ---
 
-### 5. 经络与腧穴类 (Meridian & Acupoint) - TCH_0000500 系列
-**BFO 范畴**: Immaterial Entity - Site (非物质实体 - 位点)
+### 5. 经络与腧穴类 (Meridian & Acupoint) - TCH_0900000 系列
+**BFO 范畴**: Immaterial Entity - Site (非物质实体 - 位点)  
+**ID 范围**: TCH_0900000 - TCH_0999999 (容量: 100,000)
 
-- **TCH_0000500** - Meridian (经络)
-- **TCH_0000501** - Acupoint (腧穴)
+- **TCH_0900000** - Meridian (经络)
+- **TCH_0900001** - Acupoint (腧穴)
 
 **定义**:
 - 经络: 中医理论中气血运行的通路
@@ -101,27 +108,30 @@ This ontology (TCH Ontology) is a formal knowledge representation system for Tra
 
 ---
 
-### 6. 中草药及药性类 (Herb & Properties) - TCH_0000600 系列
+### 6. 中草药及药性类 (Herb & Properties) - TCH_1000000 & TCH_3000000 系列
+**ID 范围**: 
+- Herb: TCH_1000000 - TCH_2999999 (容量: 2,000,000)
+- Properties: TCH_3000000 - TCH_3999999 (容量: 1,000,000)
 
-#### 6.1 中草药 (Herb) - TCH_0000600
+#### 6.1 中草药 (Herb) - TCH_1000000
 **BFO 范畴**: Material Entity (物质实体)
 
 **定义**: 源于自然的中医药用材料  
 **外部映射**: TCDO, CHEBI
 
-#### 6.2 药性 (TCM Nature) - TCH_0000601
+#### 6.2 药性 (TCM Nature) - TCH_3000000
 **BFO 范畴**: Disposition (倾向性)
 
 **定义**: 药物的温热寒凉属性倾向（温/热/凉/寒）  
 **外部映射**: TCDO
 
-#### 6.3 药味 (TCM Flavor) - TCH_0000602
+#### 6.3 药味 (TCM Flavor) - TCH_3000001
 **BFO 范畴**: Quality (性质)
 
 **定义**: 药物的辛甘苦酸咸等味道属性  
 **外部映射**: TCDO
 
-#### 6.4 归经 (Channel Tropism) - TCH_0000603
+#### 6.4 归经 (Channel Tropism) - TCH_3000002
 **BFO 范畴**: Disposition (倾向性)
 
 **定义**: 药物作用于特定经络的倾向  
@@ -134,10 +144,11 @@ This ontology (TCH Ontology) is a formal knowledge representation system for Tra
 
 ---
 
-### 7. 方剂类 (Formula) - TCH_0000700 系列
-**BFO 范畴**: Information Content Entity - Plan Specification
+### 7. 方剂类 (Formula) - TCH_4000000 系列
+**BFO 范畴**: Information Content Entity - Plan Specification  
+**ID 范围**: TCH_4000000 - TCH_5999999 (容量: 2,000,000)
 
-- **TCH_0000700** - Formula (方剂)
+- **TCH_4000000** - Formula (方剂)
 
 **定义**: 多味中药配伍组成的处方  
 **外部映射**: DRON
@@ -147,11 +158,12 @@ This ontology (TCH Ontology) is a formal knowledge representation system for Tra
 
 ---
 
-### 8. 治则与治法类 (Therapeutic Principles & Methods) - TCH_0000800 系列
-**BFO 范畴**: Information Content Entity - Plan Specification
+### 8. 治则与治法类 (Therapeutic Principles & Methods) - TCH_6000000 系列
+**BFO 范畴**: Information Content Entity - Plan Specification  
+**ID 范围**: TCH_6000000 - TCH_6999999 (容量: 1,000,000)
 
-- **TCH_0000800** - Therapeutic principle (治则)
-- **TCH_0000801** - Therapeutic method (治法)
+- **TCH_6000000** - Therapeutic principle (治则)
+- **TCH_6000001** - Therapeutic method (治法)
 
 **定义**:
 - 治则: 治疗的总体指导原则
@@ -167,15 +179,16 @@ This ontology (TCH Ontology) is a formal knowledge representation system for Tra
 
 ---
 
-### 9. 诊断与辨证类 (Diagnostic & Pattern Differentiation) - TCH_0000900 系列
+### 9. 诊断与辨证类 (Diagnostic & Pattern Differentiation) - TCH_7000000 系列
+**ID 范围**: TCH_7000000 - TCH_7999999 (容量: 1,000,000)
 
-#### 9.1 辨证 (Pattern Differentiation) - TCH_0000900
+#### 9.1 辨证 (Pattern Differentiation) - TCH_7000000
 **BFO 范畴**: Process (过程)
 
 **定义**: 分析症状体征以识别证候的过程  
 **外部映射**: OBI, OGMS
 
-#### 9.2 诊断 (Diagnostic Assertion) - TCH_0000901
+#### 9.2 诊断 (Diagnostic Assertion) - TCH_7000001
 **BFO 范畴**: Information Content Entity
 
 **定义**: 关于患者证候或疾病的结论性陈述  
@@ -187,10 +200,11 @@ This ontology (TCH Ontology) is a formal knowledge representation system for Tra
 
 ---
 
-### 10. 病机类 (Pathomechanism) - TCH_0000A00 系列
-**BFO 范畴**: Process (过程)
+### 10. 病机类 (Pathomechanism) - TCH_8000000 系列
+**BFO 范畴**: Process (过程)  
+**ID 范围**: TCH_8000000 - TCH_8999999 (容量: 1,000,000)
 
-- **TCH_0000A00** - Pathomechanism (病机)
+- **TCH_8000000** - Pathomechanism (病机)
 
 **定义**: 疾病发生、发展的病理机制  
 
@@ -201,10 +215,11 @@ This ontology (TCH Ontology) is a formal knowledge representation system for Tra
 
 ---
 
-### 11. 环境类 (Environment) - TCH_0000B00 系列
-**BFO 范畴**: Material Entity (物质实体)
+### 11. 环境类 (Environment) - TCH_9000000 系列
+**BFO 范畴**: Material Entity (物质实体)  
+**ID 范围**: TCH_9000000 - TCH_9999999 (容量: 1,000,000)
 
-- **TCH_0000B00** - Environment (环境)
+- **TCH_9000000** - Environment (环境)
 
 **定义**: 影响证候的季节、气候等环境因素  
 **外部映射**: ENVO
@@ -257,19 +272,54 @@ This ontology (TCH Ontology) is a formal knowledge representation system for Tra
 
 ## ID 范围分配 / ID Range Allocation
 
-| 范围 | 类别 | 说明 |
-|------|------|------|
-| TCH_0000100-0000199 | Pattern/Syndrome | 证候类 |
-| TCH_0000200-0000299 | TCM Disease | 中医疾病类 |
-| TCH_0000300-0000399 | Symptom & Sign | 症状与征象类 |
-| TCH_0000400-0000499 | Organ & Viscera | 器官与脏腑系统类 |
-| TCH_0000500-0000599 | Meridian & Acupoint | 经络与腧穴类 |
-| TCH_0000600-0000699 | Herb & Properties | 中草药及药性类 |
-| TCH_0000700-0000799 | Formula | 方剂类 |
-| TCH_0000800-0000899 | Therapeutic | 治则与治法类 |
-| TCH_0000900-0000999 | Diagnostic | 诊断与辨证类 |
-| TCH_0000A00-0000AFF | Pathomechanism | 病机类 |
-| TCH_0000B00-0000BFF | Environment | 环境类 |
+本体采用 7 位数字编码系统，总容量 10,000,000 个 ID，为各类别预留充足的扩展空间。
+
+The ontology uses a 7-digit numeric coding system with a total capacity of 10,000,000 IDs, providing ample expansion space for each category.
+
+| 范围 | 类别 | 预计容量 | 说明 |
+|------|------|---------|------|
+| TCH_0000001-TCH_0000999 | Root & Metadata | 999 | 根类及元数据 |
+| TCH_0001000-TCH_0099999 | Pattern/Syndrome | 99,000 | 证候类（含寒热虚实等各类证型） |
+| TCH_0100000-TCH_0199999 | TCM Disease | 100,000 | 中医疾病类 |
+| TCH_0200000-TCH_0499999 | Symptom | 300,000 | 症状类（主观感受） |
+| TCH_0500000-TCH_0799999 | Sign | 300,000 | 征象类（客观体征，含舌脉诊） |
+| TCH_0800000-TCH_0899999 | Organ & Viscera | 100,000 | 器官与脏腑系统类 |
+| TCH_0900000-TCH_0999999 | Meridian & Acupoint | 100,000 | 经络与腧穴类 |
+| TCH_1000000-TCH_2999999 | Herb | 2,000,000 | 中草药类（含植物、动物、矿物药） |
+| TCH_3000000-TCH_3999999 | Herb Properties | 1,000,000 | 药性、药味、归经等属性类 |
+| TCH_4000000-TCH_5999999 | Formula | 2,000,000 | 方剂类（经典方、现代方） |
+| TCH_6000000-TCH_6999999 | Therapeutic | 1,000,000 | 治则与治法类 |
+| TCH_7000000-TCH_7999999 | Diagnostic | 1,000,000 | 诊断与辨证类 |
+| TCH_8000000-TCH_8999999 | Pathomechanism | 1,000,000 | 病机类 |
+| TCH_9000000-TCH_9999999 | Environment & Others | 1,000,000 | 环境因素及其他类 |
+
+### 当前已分配 ID / Currently Allocated IDs
+
+| ID | 类别 | 中文名 | 英文名 |
+|------|------|--------|--------|
+| TCH_0000000 | Root | 寒热证本体实体 | Cold-Heat pattern ontology entity |
+| TCH_0001000 | Pattern | 证候/证 | Pattern / Syndrome |
+| TCH_0001001 | Pattern | 寒证 | Cold pattern |
+| TCH_0001002 | Pattern | 热证 | Heat pattern |
+| TCH_0001003 | Pattern | 寒热错杂证 | Cold-Heat complex pattern |
+| TCH_0100000 | Disease | 中医疾病 | TCM Disease |
+| TCH_0200000 | Symptom | 症状 | Symptom |
+| TCH_0500000 | Sign | 征象 | Sign |
+| TCH_0800000 | Organ | 器官 | Organ |
+| TCH_0800001 | Viscera | 脏腑系统 | Viscera system |
+| TCH_0900000 | Meridian | 经络 | Meridian |
+| TCH_0900001 | Acupoint | 腧穴 | Acupoint |
+| TCH_1000000 | Herb | 中草药 | Herb |
+| TCH_3000000 | Property | 药性 | TCM Nature |
+| TCH_3000001 | Property | 药味 | TCM Flavor |
+| TCH_3000002 | Property | 归经 | Channel Tropism |
+| TCH_4000000 | Formula | 方剂 | Formula |
+| TCH_6000000 | Therapeutic | 治则 | Therapeutic principle |
+| TCH_6000001 | Therapeutic | 治法 | Therapeutic method |
+| TCH_7000000 | Diagnostic | 辨证 | Pattern differentiation |
+| TCH_7000001 | Diagnostic | 诊断 | Diagnostic assertion |
+| TCH_8000000 | Pathomechanism | 病机 | Pathomechanism |
+| TCH_9000000 | Environment | 环境 | Environment |
 
 ---
 

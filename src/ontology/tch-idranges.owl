@@ -17,7 +17,7 @@ Ontology: <http://purl.obolibrary.org/obo/tch/tch-idranges.owl>
 Annotations: 
     idsfor: "TCH",
     idprefix: "http://purl.obolibrary.org/obo/TCH_",
-    iddigits: 7
+    iddigits: 8
 
 AnnotationProperty: idprefix:
 
@@ -33,19 +33,19 @@ AnnotationProperty: allocatedto:
 Datatype: idrange:1
 
     Annotations: 
-        allocatedto: "ONTOLOGY-CREATOR"
+        allocatedto: "Main Editor (主要编辑者)"
     
     EquivalentTo: 
-        xsd:integer[>= 0 , <= 999999]
+        xsd:integer[>= 0 , <= 9999999]
 
     
 Datatype: idrange:2
 
     Annotations: 
-        allocatedto: "ADDITIONAL EDITOR"
+        allocatedto: "Additional Editor (附加编辑者) - Reserved for future use"
     
     EquivalentTo: 
-        xsd:integer[>= 1000000 , <= 1999999]
+        xsd:integer[>= 10000000 , <= 99999999]
     
     
 Datatype: xsd:integer
