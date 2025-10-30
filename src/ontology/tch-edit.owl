@@ -96,9 +96,10 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000165>))
 
 # Root node
 Declaration(Class(<http://purl.obolibrary.org/obo/TCH_0000000>))
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000000> "Traditional Chinese Medicine entity"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000000> "中医实体"@zh)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000000> "Root class for all Traditional Chinese Medicine entities."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000000> "Cold-Heat pattern ontology entity"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/TCH_0000000> "寒热证本体实体"@zh)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000000> "Root class for all entities in the Traditional Chinese Medicine Cold-Heat pattern ontology, including patterns, symptoms, signs, therapeutic methods, and related concepts."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/TCH_0000000> "中医寒热证本体的根类，涵盖证候、症状、征象、治疗方法及相关概念。"@zh)
 
 
 #################################################################
