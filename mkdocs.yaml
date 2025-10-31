@@ -1,0 +1,27 @@
+site_name: TCH Ontology - Traditional Chinese Medicine Cold-Heat Pattern Ontology
+site_description: An ontology for Traditional Chinese Medicine focusing on Cold-Heat patterns (寒热证)
+site_author: TCH Ontology Team
+repo_url: https://github.com/nxx07/tch-ontology-demo
+repo_name: nxx07/tch-ontology-demo
+
+theme:
+  name: readthedocs
+  locale: en
+
+nav:
+  - Home: index.md
+  - Ontology Structure: ONTOLOGY_STRUCTURE.md
+  - ID Allocation Strategy: ID_ALLOCATION_STRATEGY.md
+  - Relation Validation: RELATION_VALIDATION.md
+  - Correction Summary: CORRECTION_SUMMARY.md
+  - Contributing: CONTRIBUTING.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - tables
+  - fenced_code
+
+plugins:
+  - search
