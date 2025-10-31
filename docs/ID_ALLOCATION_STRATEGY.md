@@ -5,7 +5,7 @@
 
 TCH 本体采用 **7 位数字编码系统**（TCH_0000000 - TCH_9999999），总容量为 **1000 万个 ID**，为各类术语预留充足的扩展空间。
 
-The TCH ontology uses a **7-digit numeric coding system** (TCH_0000000 - TCH_9999999) with a total capacity of **10 million IDs**, providing ample expansion space for各 term categories.
+The TCH ontology uses a **7-digit numeric coding system** (TCH_0000000 - TCH_9999999) with a total capacity of **10 million IDs**, providing ample expansion space for all term categories.
 
 ---
 
