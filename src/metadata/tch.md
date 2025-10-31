@@ -10,11 +10,11 @@ build:
   system: git
   path: "."
 contact:
-  email: 
-  label: 
-  github: 
-description: tch-ontology-demo is an ontology...
-domain: stuff
+  email: nxx07@example.com
+  label: TCH Ontology Team
+  github: nxx07
+description: Traditional Chinese Medicine Cold-Heat Pattern Ontology (TCH) is a formal ontology for representing TCM cold-heat patterns, diseases, symptoms, signs, herbs, formulas, and therapeutic methods. Built on BFO/RO standards with bilingual support (Chinese/English).
+domain: health
 homepage: https://github.com/nxx07/tch
 products:
   - id: tch.owl
