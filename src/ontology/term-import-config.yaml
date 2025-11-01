@@ -1,0 +1,463 @@
+# TCH 术语导入配置文件
+# Term Import Configuration for TCH Ontology
+# 
+# 此文件定义了从 CSV/Excel 表格导入术语到 OWL 本体的字段映射关系
+# This file defines field mappings for importing terms from CSV/Excel to OWL
+
+# 配置版本
+version: "1.0"
+
+# 通用配置
+general:
+  # 本体命名空间
+  ontology_iri: "http://purl.obolibrary.org/obo/tch.owl"
+  # 术语 IRI 前缀
+  term_prefix: "http://purl.obolibrary.org/obo/TCH_"
+  # 默认语言标签
+  default_languages: ["zh", "en"]
+
+# 通用字段映射（所有类别共享）
+common_fields:
+  # 基础标识字段
+  tch_id:
+    property: "rdf:about"
+    required: true
+    type: "id"
+    description: "本体术语唯一标识符"
+  
+  # 标签字段
+  label_zh:
+    property: "rdfs:label"
+    lang: "zh"
+    required: true
+    type: "string"
+    description: "中文术语名称"
+  
+  label_en:
+    property: "rdfs:label"
+    lang: "en"
+    required: true
+    type: "string"
+    description: "英文术语名称"
+  
+  # 定义字段
+  definition_zh:
+    property: "IAO:0000115"  # textual definition
+    lang: "zh"
+    required: true
+    type: "string"
+    description: "中文术语定义"
+  
+  definition_en:
+    property: "IAO:0000115"
+    lang: "en"
+    required: true
+    type: "string"
+    description: "英文术语定义"
+  
+  # 同义词字段
+  has_exact_synonym_zh:
+    property: "oboInOwl:hasExactSynonym"
+    lang: "zh"
+    required: false
+    type: "string_list"
+    separator: "|"
+    description: "中文精确同义词（多个用|分隔）"
+  
+  has_related_synonym_zh:
+    property: "oboInOwl:hasRelatedSynonym"
+    lang: "zh"
+    required: false
+    type: "string_list"
+    separator: "|"
+    description: "中文相关同义词（多个用|分隔）"
+  
+  has_exact_synonym_en:
+    property: "oboInOwl:hasExactSynonym"
+    lang: "en"
+    required: false
+    type: "string_list"
+    separator: "|"
+    description: "英文精确同义词（多个用|分隔）"
+  
+  has_related_synonym_en:
+    property: "oboInOwl:hasRelatedSynonym"
+    lang: "en"
+    required: false
+    type: "string_list"
+    separator: "|"
+    description: "英文相关同义词（多个用|分隔）"
+  
+  # 父类关系
+  parents:
+    property: "rdfs:subClassOf"
+    required: false
+    type: "id_list"
+    separator: "|"
+    description: "上位类术语ID（多个用|分隔）"
+  
+  # 元数据字段
+  sources:
+    property: "dcterms:source"
+    required: false
+    type: "string_list"
+    separator: "|"
+    description: "来源文献或数据库"
+  
+  evidence_ECO:
+    property: "ECO:0000000"  # evidence
+    required: false
+    type: "string"
+    description: "证据代码（ECO）"
+  
+  date_accessed:
+    property: "dcterms:created"
+    required: false
+    type: "date"
+    format: "%Y-%m-%d"
+    description: "检索/创建日期"
+  
+  notes:
+    property: "rdfs:comment"
+    lang: "zh"
+    required: false
+    type: "string"
+    description: "备注信息"
+
+# 各类别特定字段映射
+category_specific_fields:
+  
+  # Pattern (证候) - TCH_0001000
+  pattern:
+    base_class: "TCH:0001000"
+    id_range: "0001000-0099999"
+    
+    # 关系字段
+    has_sign:
+      property: "BFO:0000051"  # has part
+      required: false
+      type: "id_list"
+      separator: "|"
+      target_class: "TCH:0500000"  # Sign
+      description: "具有的征象术语ID"
+    
+    has_symptom:
+      property: "BFO:0000051"  # has part
+      required: false
+      type: "id_list"
+      separator: "|"
+      target_class: "TCH:0200000"  # Symptom
+      description: "具有的症状术语ID"
+    
+    reflect_pathomechanism:
+      property: "RO:0002404"  # causally downstream of
+      required: false
+      type: "id_list"
+      separator: "|"
+      target_class: "TCH:8000000"  # Pathomechanism
+      description: "反映的病机术语ID"
+    
+    xrefs:
+      property: "oboInOwl:hasDbXref"
+      required: false
+      type: "string_list"
+      separator: "|"
+      description: "外部数据库交叉引用"
+  
+  # TCM Disease (中医疾病) - TCH_0100000
+  disease:
+    base_class: "TCH:0100000"
+    id_range: "0100000-0199999"
+    
+    has_sign:
+      property: "BFO:0000051"  # has part
+      required: false
+      type: "id_list"
+      separator: "|"
+      target_class: "TCH:0500000"
+      description: "具有的征象术语ID"
+    
+    has_symptom:
+      property: "RO:0002452"  # has symptom
+      required: false
+      type: "id_list"
+      separator: "|"
+      target_class: "TCH:0200000"
+      description: "具有的症状术语ID"
+    
+    icd11_mms:
+      property: "oboInOwl:hasDbXref"
+      required: false
+      type: "string"
+      prefix: "ICD11:"
+      description: "ICD-11 MMS编码"
+    
+    anatomical_site_uberon:
+      property: "RO:0001025"  # located in
+      required: false
+      type: "id_list"
+      separator: "|"
+      prefix: "UBERON:"
+      description: "解剖定位（UBERON术语）"
+    
+    etiologic_agent:
+      property: "RO:0002556"  # causally influenced by
+      required: false
+      type: "string_list"
+      separator: "|"
+      description: "病因/病原"
+    
+    typical_tcm_patterns:
+      property: "RO:0000052"  # inheres in (反向关系)
+      required: false
+      type: "id_list"
+      separator: "|"
+      target_class: "TCH:0001000"
+      description: "常见对应证候术语ID"
+  
+  # Symptom (症状) - TCH_0200000
+  symptom:
+    base_class: "TCH:0200000"
+    id_range: "0200000-0499999"
+    
+    related_MMsymptom:
+      property: "oboInOwl:hasDbXref"
+      required: false
+      type: "string_list"
+      separator: "|"
+      prefix: "HPO:"
+      description: "相关西医症状（HPO）"
+    
+    inheresIn_UBERON:
+      property: "RO:0000052"  # inheres in
+      required: false
+      type: "id_list"
+      separator: "|"
+      prefix: "UBERON:"
+      description: "依附的解剖载体（UBERON）"
+    
+    iso_id:
+      property: "oboInOwl:hasDbXref"
+      required: false
+      type: "string"
+      prefix: "ISO23961:"
+      description: "ISO术语编号"
+  
+  # Sign (征象) - TCH_0500000
+  sign:
+    base_class: "TCH:0500000"
+    id_range: "0500000-0799999"
+    
+    sign_category:
+      property: "rdfs:comment"
+      required: false
+      type: "string"
+      description: "征象所属类别（舌诊/脉诊/其他）"
+    
+    iso_id:
+      property: "oboInOwl:hasDbXref"
+      required: false
+      type: "string"
+      prefix: "ISO23961:"
+      description: "ISO术语编号"
+  
+  # Herb (中草药) - TCH_1000000
+  herb:
+    base_class: "TCH:1000000"
+    id_range: "1000000-2999999"
+    
+    tcdo_id:
+      property: "oboInOwl:hasDbXref"
+      required: false
+      type: "string"
+      prefix: "TCDO:"
+      description: "TCDO编号"
+    
+    has_nature:
+      property: "RO:0000091"  # has disposition
+      required: false
+      type: "id_list"
+      separator: "|"
+      target_class: "TCH:3000000"  # TCM Nature
+      description: "药性（寒/热/温/凉）术语ID"
+    
+    has_flavor:
+      property: "RO:0000086"  # has quality
+      required: false
+      type: "id_list"
+      separator: "|"
+      target_class: "TCH:3000001"  # TCM Flavor
+      description: "药味（辛/甘/苦/酸/咸）术语ID"
+    
+    has_channel_tropism:
+      property: "RO:0000091"  # has disposition
+      required: false
+      type: "id_list"
+      separator: "|"
+      target_class: "TCH:3000002"  # Channel Tropism
+      description: "归经术语ID"
+    
+    active_ingredient_chebi:
+      property: "RO:0000087"  # has role
+      required: false
+      type: "string_list"
+      separator: "|"
+      prefix: "CHEBI:"
+      description: "活性成分（CHEBI）"
+  
+  # Formula (方剂) - TCH_4000000
+  formula:
+    base_class: "TCH:4000000"
+    id_range: "4000000-5999999"
+    
+    has_herb:
+      property: "BFO:0000051"  # has part
+      required: false
+      type: "id_list"
+      separator: "|"
+      target_class: "TCH:1000000"  # Herb
+      description: "药味组成术语ID（多个用|分隔）"
+    
+    treats_dispositions:
+      property: "RO:0002606"  # is treatment for
+      required: false
+      type: "id_list"
+      separator: "|"
+      target_class: "TCH:0001000"  # Pattern
+      description: "对应证候术语ID"
+  
+  # Therapeutic Principle (治则) - TCH_6000000
+  principle:
+    base_class: "TCH:6000000"
+    id_range: "6000000-6999999"
+    
+    treats_dispositions:
+      property: "RO:0002233"  # has input
+      required: false
+      type: "id_list"
+      separator: "|"
+      target_class: "TCH:0001000"  # Pattern
+      description: "针对证候术语ID"
+    
+    treats_diseases:
+      property: "BFO:0000066"  # occurs in
+      required: false
+      type: "id_list"
+      separator: "|"
+      target_class: "TCH:0100000"  # TCM Disease
+      description: "针对疾病术语ID"
+    
+    realizedBy_process:
+      property: "BFO:0000165"  # is concretized by
+      required: false
+      type: "id_list"
+      separator: "|"
+      target_class: "TCH:6000001"  # Therapeutic Method
+      description: "由……实现（治法）术语ID"
+  
+  # Therapeutic Method (治法) - TCH_6000001
+  method:
+    base_class: "TCH:6000001"
+    id_range: "6000000-6999999"
+    
+    treats_dispositions:
+      property: "IAO:0000136"  # is about
+      required: false
+      type: "id_list"
+      separator: "|"
+      target_class: "TCH:0001000"  # Pattern
+      description: "针对证候术语ID"
+    
+    treats_diseases:
+      property: "IAO:0000136"  # is about
+      required: false
+      type: "id_list"
+      separator: "|"
+      target_class: "TCH:0100000"  # TCM Disease
+      description: "针对疾病术语ID"
+  
+  # Pattern Differentiation (辨证) - TCH_7000000
+  differentiation:
+    base_class: "TCH:7000000"
+    id_range: "7000000-7999999"
+    # 仅使用通用字段，无特殊字段
+  
+  # Pathomechanism (病机) - TCH_8000000
+  pathomechanism:
+    base_class: "TCH:8000000"
+    id_range: "8000000-8999999"
+    
+    explains_disease:
+      property: "RO:0002410"  # causally related to
+      required: false
+      type: "id_list"
+      separator: "|"
+      target_class: "TCH:0100000"  # TCM Disease
+      description: "解释疾病术语ID"
+    
+    causes_pattern:
+      property: "RO:0002410"  # causally related to
+      required: false
+      type: "id_list"
+      separator: "|"
+      target_class: "TCH:0001000"  # Pattern
+      description: "导致证候术语ID"
+
+# 外部本体前缀定义
+external_prefixes:
+  BFO: "http://purl.obolibrary.org/obo/BFO_"
+  RO: "http://purl.obolibrary.org/obo/RO_"
+  IAO: "http://purl.obolibrary.org/obo/IAO_"
+  PATO: "http://purl.obolibrary.org/obo/PATO_"
+  UBERON: "http://purl.obolibrary.org/obo/UBERON_"
+  HPO: "http://purl.obolibrary.org/obo/HP_"
+  MONDO: "http://purl.obolibrary.org/obo/MONDO_"
+  CHEBI: "http://purl.obolibrary.org/obo/CHEBI_"
+  ECO: "http://purl.obolibrary.org/obo/ECO_"
+  TCDO: "http://purl.obolibrary.org/obo/TCDO_"
+  ICD11: "http://id.who.int/icd/entity/"
+  ISO23961: "urn:iso:std:23961:"
+  dcterms: "http://purl.org/dc/terms/"
+  oboInOwl: "http://www.geneontology.org/formats/oboInOwl#"
+
+# 验证规则
+validation_rules:
+  # ID格式验证
+  id_format:
+    pattern: "^TCH_[0-9]{7}$"
+    error_message: "术语ID必须符合格式 TCH_XXXXXXX（7位数字）"
+  
+  # ID范围验证
+  id_range_check: true
+  
+  # 必填字段验证
+  required_fields_check: true
+  
+  # 引用完整性验证
+  reference_integrity_check: true
+  
+  # 重复ID检查
+  duplicate_id_check: true
+
+# 导入选项
+import_options:
+  # 输入文件编码
+  input_encoding: "utf-8"
+  
+  # CSV分隔符
+  csv_delimiter: ","
+  
+  # 跳过空行
+  skip_empty_rows: true
+  
+  # 去除字段前后空格
+  strip_whitespace: true
+  
+  # 日志级别
+  log_level: "INFO"
+  
+  # 是否生成导入报告
+  generate_report: true
+  
+  # 是否备份现有本体
+  backup_before_import: true

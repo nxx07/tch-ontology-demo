@@ -1,0 +1,3 @@
+tch_id,label_zh,label_en,definition_zh,definition_en,has_exact_synonym_zh,has_related_synonym_zh,has_exact_synonym_en,has_related_synonym_en,parents,sources,evidence_ECO,date_accessed,notes,manifested_by_pattern,leads_to_symptom
+TCH_8000001,外感风寒,External Contraction of Wind-Cold,风寒邪气侵袭人体所致的病机,A pathomechanism caused by invasion of wind-cold pathogens into the body,风寒外袭,感受风寒,Wind-cold invasion|Attack of wind-cold,,TCH_8000000,《中医病因病机学》|《中医基础理论》,ECO:0000033,2025-10-31,外感病机的基本类型,TCH_0001001,TCH_0200002
+TCH_8000002,热盛伤津,Exuberant Heat Consuming Fluid,热邪炽盛，耗伤津液的病机,A pathomechanism of exuberant heat consuming body fluids,热邪伤津,热灼津液,Heat damaging fluid|Heat scorching fluid,,TCH_8000000,《中医病因病机学》,ECO:0000033,2025-10-31,热证发展的重要病机,TCH_0001002,TCH_0200001

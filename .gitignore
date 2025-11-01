@@ -70,3 +70,12 @@ src/patterns/all_pattern_terms.txt
 
 # MkDocs build output
 site/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 术语导入系统临时文件
+*.backup.*
+term_import.log
+term_import_report_*.txt

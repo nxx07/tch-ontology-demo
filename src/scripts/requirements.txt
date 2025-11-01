@@ -1,0 +1,16 @@
+# TCH 本体术语导入工具依赖
+# Dependencies for TCH Ontology Term Import Tool
+
+# 数据处理
+pandas>=1.5.0
+openpyxl>=3.1.0  # Excel文件支持
+
+# 配置文件处理
+pyyaml>=6.0
+
+# OWL本体处理
+owlready2>=0.41
+rdflib>=6.3.0
+
+# 日志和工具
+python-dateutil>=2.8.0

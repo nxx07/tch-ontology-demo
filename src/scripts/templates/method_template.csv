@@ -1,0 +1,3 @@
+tch_id,label_zh,label_en,definition_zh,definition_en,has_exact_synonym_zh,has_related_synonym_zh,has_exact_synonym_en,has_related_synonym_en,parents,sources,evidence_ECO,date_accessed,notes,realizes_principle,employs_herb_or_formula
+TCH_6100001,辛温发汗法,Acrid-Warm Sweating Method,使用辛温解表药物发汗解表的治疗方法,A therapeutic method using acrid-warm exterior-releasing herbs to induce sweating,辛温解表法,,Acrid-warm diaphoretic method,,TCH_6100000,《中医治疗学》|《方剂学》,ECO:0000033,2025-10-31,治疗风寒表证的常用方法,TCH_6000001,TCH_1000001|TCH_4000001
+TCH_6100002,苦寒泻火法,Bitter-Cold Fire-Purging Method,使用苦寒清热药物清热泻火的治疗方法,A therapeutic method using bitter-cold heat-clearing herbs to purge fire,苦寒清热法,,Bitter-cold heat-clearing method,,TCH_6100000,《中医治疗学》,ECO:0000033,2025-10-31,治疗实热证的基本方法,TCH_6000002,

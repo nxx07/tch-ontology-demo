@@ -1,0 +1,3 @@
+tch_id,label_zh,label_en,definition_zh,definition_en,has_exact_synonym_zh,has_related_synonym_zh,has_exact_synonym_en,has_related_synonym_en,parents,sources,evidence_ECO,date_accessed,notes
+TCH_0200001,发热,Fever,体温超过正常范围的症状表现,A symptom characterized by elevated body temperature above normal range,热,身热|体热,Pyrexia,Febrile,TCH_0200000,《中医诊断学》|《中医症状鉴别诊断学》,ECO:0000033,2025-10-31,常见于外感或内伤发热
+TCH_0200002,恶寒,Aversion to Cold,患者自觉怕冷、得暖而减的症状,A symptom characterized by feeling cold and desiring warmth,畏寒,怕冷,Chills,Cold aversion,TCH_0200000,《中医诊断学》,ECO:0000033,2025-10-31,外感表证的重要症状之一

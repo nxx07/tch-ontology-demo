@@ -1,0 +1,3 @@
+tch_id,label_zh,label_en,definition_zh,definition_en,has_exact_synonym_zh,has_related_synonym_zh,has_exact_synonym_en,has_related_synonym_en,parents,sources,evidence_ECO,date_accessed,notes,latin_name,chemical_constituent_chebi,meridian_tropism,toxicity_level
+TCH_1000001,麻黄,Ephedra,麻黄科植物草麻黄、中麻黄或木贼麻黄的草质茎,The herbaceous stem of Ephedra sinica Stapf, E. intermedia Schrenk et C.A.Mey., or E. equisetina Bge.,,,Herba Ephedrae|Ma Huang,,TCH_1000000,《中国药典》|《中药学》,ECO:0000033,2025-10-31,发汗解表要药,Ephedra sinica,CHEBI:4781|CHEBI:6137,肺经|膀胱经,low_toxicity
+TCH_1000002,桂枝,Cinnamon Twig,樟科植物肉桂的干燥嫩枝,The dried tender twig of Cinnamomum cassia (L.) J.Presl,,,Ramulus Cinnamomi|Gui Zhi,,TCH_1000000,《中国药典》|《中药学》,ECO:0000033,2025-10-31,温经通阳，助阳化气,Cinnamomum cassia,CHEBI:27989,心经|肺经|膀胱经,non_toxic
