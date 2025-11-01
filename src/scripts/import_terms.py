@@ -415,13 +415,25 @@ class TCHTermImporter:
                 # 创建术语
                 self.create_term(row, category)
         
-        # 保存本体
+        # 保存本体（仅在成功导入术语时保存）
         if not validate_only:
-            try:
-                self.ontology.save(file=str(self.ontology_path))
-                logger.info(f"本体文件保存成功: {self.ontology_path}")
-            except Exception as e:
-                logger.error(f"本体文件保存失败: {e}")
+            if self.stats['success'] > 0:
+                try:
+                    # 保存前验证本体内容
+                    class_count = len(list(self.ontology.classes()))
+                    if class_count == 0:
+                        logger.error("本体中没有任何类，拒绝保存以避免数据丢失")
+                        logger.warning(f"可以从备份恢复: {self.ontology_path}.backup.*")
+                    else:
+                        # 明确指定格式为 OFN (OWL Functional Syntax)
+                        self.ontology.save(file=str(self.ontology_path), format="ofn")
+                        logger.info(f"本体文件保存成功: {self.ontology_path} (包含 {class_count} 个类)")
+                except Exception as e:
+                    logger.error(f"本体文件保存失败: {e}")
+                    logger.warning(f"可以从备份恢复: {self.ontology_path}.backup.*")
+            else:
+                logger.warning("没有成功导入任何术语，不保存本体文件以避免数据丢失")
+                logger.info(f"原始文件保持不变: {self.ontology_path}")
         
         # 生成报告
         self._generate_report(category, file_path, validate_only)
