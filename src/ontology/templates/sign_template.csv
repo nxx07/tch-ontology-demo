@@ -1,0 +1,4 @@
+tch_id,data_category,label_zh,label_en,definition_zh,definition_en,has_synonym_zh,has_synonym_en,parents,belongs_to_pattern,associated_disease,observable_entity,xrefs,sources,date_accessed,notes
+id_range: TCH:0500000-0799999,sign,string,string,string,string,string,string,TCH:0500000,"string, separated with ;","string, separated with ;",string,"string, separated with ;",,year-month-day,
+TCH:0500001,sign,舌红,Red Tongue,舌体颜色呈红色的征象,A sign characterized by red color of the tongue body,红舌,Red tongue body,TCH:0500000,TCH:0001002,,UBERON:0001723,,《中医诊断学》;《舌诊》,2025-10-31,提示热证
+TCH:0500002,sign,苔黄,Yellow Tongue Coating,舌苔颜色呈黄色的征象,A sign characterized by yellow color of tongue coating,黄苔;舌苔黄,Yellow fur;Yellow coat,TCH:0500000,TCH:0001002,,UBERON:0035820,,《中医诊断学》;《舌诊》,2025-10-31,提示热证或湿热

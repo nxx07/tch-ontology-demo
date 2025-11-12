@@ -1,0 +1,4 @@
+tch_id,data_category,label_zh,label_en,definition_zh,definition_en,has_synonym_zh,has_synonym_en,parents,belongs_to_pattern,associated_disease,associated_pathomechanism,xrefs,sources,date_accessed,notes
+id_range: TCH:0200000-0499999,symptom,string,string,string,string,string,string,TCH:0200000,"string, separated with ;","string, separated with ;","string, separated with ;","string, separated with ;",,year-month-day,
+TCH:0200001,symptom,发热,Fever,体温超过正常范围的症状表现,A symptom characterized by elevated body temperature above normal range,热;身热;体热,Pyrexia;Febrile,TCH:0200000,TCH:0001002,,TCH:8000002,UMLS:C0015967;MeSH:D005334,《中医诊断学》;《中医症状鉴别诊断学》,2025-10-31,常见于外感或内伤发热
+TCH:0200002,symptom,恶寒,Aversion to Cold,患者自觉怕冷、得暖而减的症状,A symptom characterized by feeling cold and desiring warmth,畏寒;怕冷,Chills;Cold aversion,TCH:0200000,TCH:0001001,,,《中医诊断学》,2025-10-31,外感表证的重要症状之一
