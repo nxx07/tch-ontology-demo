@@ -2060,3 +2060,236 @@ TmpTCH:PATTERN_10586,pattern,血分证类,category of blood phase syndrome/patte
 TmpTCH:PATTERN_12058,pattern,血分证,syndrome/pattern of blood phase,因温热疫毒等邪深入血分，耗血伤阴，动血生风所致。临床以壮热或夜热早凉，手足抽搐或蠕动，神昏、谵语，斑疹紫黑，舌质深绛，舌苔少或无，脉弦数，指纹紫黑，伴见吐血或衄血、尿血、便血等为特征的证候。,,,,TmpTCH:PATTERN_10586,,,,,,,,GB/T 16751.2 -2023中医临床诊疗术语 第2部分：证候,2025-11-12,Original code: 9.4.1; Database: clinical_syndrome
 TmpTCH:PATTERN_12059,pattern,血热动血证,syndrome/pattern of blood-heat with blood stirring,因温热病邪深入血分，迫血妄行所致。临床以吐血或鼻衄、齿衄、便血、尿血，斑疹密布，色紫或黑，舌质深绛，舌苔少或无，脉细数，指纹紫暗或黑，伴见身热，口渴或渴不欲饮，心烦、不寐等为特征的证候。,,,,TmpTCH:PATTERN_10586,,,,,,,,GB/T 16751.2 -2023中医临床诊疗术语 第2部分：证候,2025-11-12,Original code: 9.4.2; Database: clinical_syndrome
 TmpTCH:PATTERN_12060,pattern,血热动风证,syndrome/pattern of blood-heat with wind stirring,因温热疫毒等邪深入血分，耗损阴血，筋脉失养，虚风内动所致。临床以手足蠕动或??，形体消瘦，神疲倦怠，齿干、唇裂，舌质绛，舌苔无，脉细数，指纹紫青，伴见潮热，胸腹灼热，斑疹隐现等为特征的证候。,,,,TmpTCH:PATTERN_10586,,,,,,,,GB/T 16751.2 -2023中医临床诊疗术语 第2部分：证候,2025-11-12,Original code: 9.4.3; Database: clinical_syndrome
+TmpTCH:PATTERN_12061,pattern,下元虚冷,deficiency-cold of kidney,肾阳虚证是指肾阳亏虚，机体失其温煦，以腰膝酸冷、性欲减退、夜尿多及阳虚症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY1,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12062,pattern,下脘虚冷,deficiency-cold of abdomen,肾阳虚证是指肾阳亏虚，机体失其温煦，以腰膝酸冷、性欲减退、夜尿多及阳虚症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY2,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12063,pattern,中气下陷,sinking of the middle qi,脾虚气陷证是指脾气虚弱，升举无力而反下陷，以眩晕、泄泻、脘腹重坠、内脏下垂及气虚症状为主要表现的证。脾虚气陷证又名中气下陷证。,,,,,,,,,,,,SymMap2.0 SMSY3,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12064,pattern,久病虚羸,the debility from chronic illness,,,,,,,,,,,,,SymMap2.0 SMSY4,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12065,pattern,乳食停滞,milk stagnation,是脾胃虚弱，乳食停滞不化而出现的证候。,,,,,,,,,,,,SymMap2.0 SMSY5,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12066,pattern,亡阳,yang exhaustion,机体的阳气短时间内大量亡失，使属于阳的功能突然严重衰竭，因而导致生命垂危的一种病理变化。,,,,,,,,,,,,SymMap2.0 SMSY6,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12067,pattern,产后瘀血,postpartum  blood stasis,血瘀证是指瘀血内阻，以疼痛、肿块、出血、瘀血色脉征为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY7,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12068,pattern,产后血虚,postpartum blood deficiency,血虚证是指血液亏虚，不能濡养脏腑、经络、组织，以面、睑、唇、舌色淡白，脉细为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY8,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12069,pattern,内热,intrinsic heat,指体内脏腑阴阳偏胜之热。,,,,,,,,,,,,SymMap2.0 SMSY9,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12070,pattern,冷哮,asthma of cold type,,,,,,,,,,,,,SymMap2.0 SMSY10,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12071,pattern,冷喘,Cold-type Dyspnea,,,,,,,,,,,,,SymMap2.0 SMSY11,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12072,pattern,冷泻,cold diarrhea,,,,,,,,,,,,,SymMap2.0 SMSY12,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12073,pattern,劳伤,injury caused by strain and sprain,中医指因过度劳累而引起的内伤,,,,,,,,,,,,SymMap2.0 SMSY13,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12074,pattern,外感,externally infected disease,,,,,,,,,,,,,SymMap2.0 SMSY14,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12075,pattern,外感风寒,affection by exopathic wind-cold,风寒犯肺证是指由于风寒侵袭，肺卫失宣，以咳嗽及风寒表证症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY15,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12076,pattern,实热,strong fever,热证是指感受热邪，或脏腑阳气亢盛，或阴虚阳亢，导致机体功能活动亢进而表现出具有“温、热”等症状特点的证。,,,,,,,,,,,,SymMap2.0 SMSY16,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12077,pattern,实热积滞,stagnation due to excessive heat,,,,,,,,,,,,,SymMap2.0 SMSY17,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12078,pattern,宫冷,cold sensation in uterus,指妇女肾阳不足，胞子宫失于温煦所出现的下腹坠胀，疼痛，得热则缓和，白带多，痛经，月经失调，脉沉紧，舌苔薄白多津为主要症状者,,,,,,,,,,,,SymMap2.0 SMSY18,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12079,pattern,寒凝气滞,accumulation of cold and stasis of qi,是阴寒之邪侵入人体，损伤阳气，寒邪留滞不去，外现寒证的证候。,,,,,,,,,,,,SymMap2.0 SMSY19,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12080,pattern,寒湿,cold and damp,是指寒湿之邪阻滞经络，以肢体或患处沉重冷痛、麻木，或肿胀，畏冷肢凉，苔白滑等为常见症的证候。,,,,,,,,,,,,SymMap2.0 SMSY20,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12081,pattern,寒湿内阻,retention of cold and wind within the body,是指寒湿之邪阻滞经络，以肢体或患处沉重冷痛、麻木，或肿胀，畏冷肢凉，苔白滑等为常见症的证候。,,,,,,,,,,,,SymMap2.0 SMSY21,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12082,pattern,寒湿郁滞,stagnation of cold-dampness,是指寒湿之邪阻滞经络，以肢体或患处沉重冷痛、麻木，或肿胀，畏冷肢凉，苔白滑等为常见症的证候。,,,,,,,,,,,,SymMap2.0 SMSY22,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12083,pattern,寒湿闭暑,Cold-dampness and incubated summer heat,是指寒湿之邪阻滞经络，以肢体或患处沉重冷痛、麻木，或肿胀，畏冷肢凉，苔白滑等为常见症的证候。,,,,,,,,,,,,SymMap2.0 SMSY23,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12084,pattern,寒滞,retention of cold and fluid,是阴寒之邪侵入人体，损伤阳气，寒邪留滞不去，外现寒证的证候。,,,,,,,,,,,,SymMap2.0 SMSY24,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12085,pattern,寒热互结,combination of cold and heat ,寒热错杂是指在同一患者身上，既有寒证，又有热证的情况。,,,,,,,,,,,,SymMap2.0 SMSY25,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12086,pattern,寒疝,periumbilical colic due to invasion of cold,由脾胃虚寒，或产后血虚，复感风寒外邪，结聚於腹中而致。,,,,,,,,,,,,SymMap2.0 SMSY26,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12087,pattern,寒痰,cold phlegm,寒痰阻肺证是指寒痰交阻于肺，肺失宣降，以咳嗽气喘、痰多色白及寒证症状为主要表现的证。寒痰阻肺证又名寒饮停肺证、痰浊阻肺证。,,,,,,,,,,,,SymMap2.0 SMSY27,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12088,pattern,寒积,accumulation of cold evil,感受阴寒之邪所致的证候。,,,,,,,,,,,,SymMap2.0 SMSY28,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12089,pattern,寒饮,fluid retention,寒痰阻肺证是指寒痰交阻于肺，肺失宣降，以咳嗽气喘、痰多色白及寒证症状为主要表现的证。寒痰阻肺证又名寒饮停肺证、痰浊阻肺证。,,,,,,,,,,,,SymMap2.0 SMSY29,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12090,pattern,小儿痰热,Phlegm fever in children,由痰热互结，阻于气道，肺道失利，肺胃气逆，痰火伤及血络所致。,,,,,,,,,,,,SymMap2.0 SMSY30,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12091,pattern,少阴伏风,wind in shaoyin,,,,,,,,,,,,,SymMap2.0 SMSY31,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12092,pattern,心火亢盛,exuberance of the heart fire,心火亢盛证是指心火内炽，扰神迫血，火热上炎下移，以心烦失眠、舌赤生疮、吐衄、尿赤及火热症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY32,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12093,pattern,心肾不交,breakdowm of the normal physilolgical coordination between the heart and the kidney,心肾不交证是指心肾水火既济失调，以心烦、失眠、梦遗、耳鸣、腰膝酸软等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY33,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12094,pattern,心脾不足,insufficiency of both the heart and the spleen,心脾两虚证是指脾气亏虚，心血不足，以心悸怔忡、失眠多梦、食少、腹胀、便溏及气血两虚症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY34,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12095,pattern,心腹瘀血,Heart stasis,血瘀证是指瘀血内阻，以疼痛、肿块、出血、瘀血色脉征为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY35,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12096,pattern,心虚,cardiac asthenia,心气虚证是指心气不足，鼓动无力，以心悸怔忡及气虚症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY36,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12097,pattern,心阳不足,insufficiency of cardiac yang,心阳虚证是指心阳虚衰，温运失司，虚寒内生，以心悸怔忡，或心胸疼痛及阳虚症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY37,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12098,pattern,暑湿,be affected by summer-head-dampness,即暑热挟湿。以胸脘痞闷、心烦、身热、舌苔黄腻为主证。,,,,,,,,,,,,SymMap2.0 SMSY38,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12099,pattern,暑湿表证,cold in meridian,暑湿伤表，卫气失调，以发热，微恶风寒，头重身困，口渴，烦躁，小便短赤，舌红苔黄腻，脉濡数等为常见症的证候。,,,,,,,,,,,,SymMap2.0 SMSY39,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12100,pattern,暑热,summer heat,外感暑邪的热证。,,,,,,,,,,,,SymMap2.0 SMSY40,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12101,pattern,暑邪,summer-heat evil,凡夏至之后，立秋以前，致病具有炎热、升散、兼湿特性的外邪，称为暑邪。,,,,,,,,,,,,SymMap2.0 SMSY41,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12102,pattern,气不摄,Qi fails to keep,脾不统血证是指脾气虚弱，统血失常，血溢脉外，以各种出血及脾气虚症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY42,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12103,pattern,气不摄血,failure of qi to govern blood;qi failing to failure of qi to contain blood,脾不统血证是指脾气虚弱，统血失常，血溢脉外，以各种出血及脾气虚症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY43,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12104,pattern,气滞,sluggish flow of qi,气滞证是指人体某一部位，或某一脏腑、经络的气机阻滞，运行不畅，以胀闷、疼痛、脉弦为主要表现的证。气滞证又称气郁证、气结证。,,,,,,,,,,,,SymMap2.0 SMSY44,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12105,pattern,气潜,Qi becomes dormant or concealed,气陷证是指气虚升举无力而反下陷，以自觉气坠，或内脏下垂为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY45,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12106,pattern,气虚,air weakness,气虚证是指机体元气不足，脏腑组织机能减退，以神疲乏力、少气懒言、脉虚等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY46,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12107,pattern,气血不足,insufficiency of the vital energy and blood,气血两虚证是指气血不能互相化生，以气虚和血虚症状相兼为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY47,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12108,pattern,气血亏虚,deficiency of qi and the blood,气血两虚证是指气血不能互相化生，以气虚和血虚症状相兼为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY48,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12109,pattern,气血虚弱,the debility of qi and the blood,气血两虚证是指气血不能互相化生，以气虚和血虚症状相兼为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY49,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12110,pattern,气逆,abnormal rising of qi ,气逆证是指气机升降失常，逆而向上，以咳喘、呕恶、头痛眩晕等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY50,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12111,pattern,气郁,stagnation of qi,气滞证是指人体某一部位，或某一脏腑、经络的气机阻滞，运行不畅，以胀闷、疼痛、脉弦为主要表现的证。气滞证又称气郁证、气结证。,,,,,,,,,,,,SymMap2.0 SMSY51,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12112,pattern,气阴不足,insufficiency of  qi and yin; deficiency of qi and yin,本证指由于阴虚日久，阴不化气而气失化源，或因邪热疫毒伤损，伤阴耗气，导致机体气阴不足，功能减退所表现的证候。,,,,,,,,,,,,SymMap2.0 SMSY52,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12113,pattern,气阴两虚,insufficiency of qi and yin,本证指由于阴虚日久，阴不化气而气失化源，或因邪热疫毒伤损，伤阴耗气，导致机体气阴不足，功能减退所表现的证候。,,,,,,,,,,,,SymMap2.0 SMSY53,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12114,pattern,气阴亏虚,deficiency of qi and yin,本证指由于阴虚日久，阴不化气而气失化源，或因邪热疫毒伤损，伤阴耗气，导致机体气阴不足，功能减退所表现的证候。,,,,,,,,,,,,SymMap2.0 SMSY54,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12115,pattern,水血不,,,,,,,,,,,,,,SymMap2.0 SMSY55,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12116,pattern,水血不足,anhydremia,,,,,,,,,,,,,SymMap2.0 SMSY56,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12117,pattern,津亏,deficiency of fluid ,津液亏虚证是指机体津液亏少，形体、脏腑、官窍失却滋润濡养和充盈，以口渴欲饮、尿少便干、官窍及皮肤干燥等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY57,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12118,pattern,津伤,deficiency of the body fluid,津液亏虚证是指机体津液亏少，形体、脏腑、官窍失却滋润濡养和充盈，以口渴欲饮、尿少便干、官窍及皮肤干燥等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY58,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12119,pattern,津枯肠燥,deficiency of body fluid with dryness in the intestines,肠燥津亏证是指津液亏损，肠失濡润，传导失职，以大便燥结难下及津亏症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY59,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12120,pattern,淤滞,stasis,血瘀证是指瘀血内阻，以疼痛、肿块、出血、瘀血色脉征为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY60,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12121,pattern,淤血肿痛,swelling and pain due to blood stasis,血瘀证是指瘀血内阻，以疼痛、肿块、出血、瘀血色脉征为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY61,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12122,pattern,淤血阻络,blood stasis in collaterals,血瘀证是指瘀血内阻，以疼痛、肿块、出血、瘀血色脉征为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY62,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12123,pattern,温毒,heat toxins,温毒是指感受温毒病邪所引起的具有肿毒特征的一类温病。,,,,,,,,,,,,SymMap2.0 SMSY63,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12124,pattern,温毒发斑,maculae caused by violent heat pathogen,由於温热之毒内蕴肺胃，充斥三焦，波及营血，透发於肌肤而为斑。,,,,,,,,,,,,SymMap2.0 SMSY64,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12125,pattern,温热入营,Warm into the camp,热毒深传，侵入营血，以发热不退，抽搐频繁，牙关紧闭，两目上视，面色灰暗，甚或突然呼吸停止，肢厥脉绝，舌紫暗而干，或舌卷僵硬，脉细数为常见症的小儿暑温证候,,,,,,,,,,,,SymMap2.0 SMSY65,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12126,pattern,温病初起,Febrile disease early,感受温邪所引起的一类外感急性热病的总称。,,,,,,,,,,,,SymMap2.0 SMSY66,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12127,pattern,温邪伤营,Heat Evil camp injury,热毒深传，侵入营血，以发热不退，抽搐频繁，牙关紧闭，两目上视，面色灰暗，甚或突然呼吸停止，肢厥脉绝，舌紫暗而干，或舌卷僵硬，脉细数为常见症的小儿暑温证候,,,,,,,,,,,,SymMap2.0 SMSY67,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12128,pattern,温邪伤阴,Warm evil and hurt yin,风温余邪未净，肺胃阴伤，以低热或不发热，干咳或痰少而黏，口舌干燥而渴，舌干红，少苔，脉细等为常见症的风温证候。,,,,,,,,,,,,SymMap2.0 SMSY68,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12129,pattern,湿浊中阻,Retention of Dampness and turbidity in Mtddle-energizer,寒湿困脾证是指寒湿内盛，困阻脾阳，运化失职，以脘腹痞闷、纳呆、便溏、身重与寒湿症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY69,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12130,pattern,湿温,damp fever,,,,,,,,,,,,,SymMap2.0 SMSY70,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12131,pattern,湿温初起,Humidity at the beginning,,,,,,,,,,,,,SymMap2.0 SMSY71,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12132,pattern,湿滞伤中,retention of dampness impair mtddle-energizer,寒湿困脾证是指寒湿内盛，困阻脾阳，运化失职，以脘腹痞闷、纳呆、便溏、身重与寒湿症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY72,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12133,pattern,湿热,wet fever,指湿热蕴结体内，脏腑经络运行受阻，可见全身湿热症状的病理变化。,,,,,,,,,,,,SymMap2.0 SMSY73,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12134,pattern,湿热中阻,Retention of Dampness and heat in Mtddle-energizer,指湿热蕴结体内，脏腑经络运行受阻，可见全身湿热症状的病理变化。,,,,,,,,,,,,SymMap2.0 SMSY74,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12135,pattern,湿热壅遏,Humidity and heat suppression,指湿热蕴结体内，脏腑经络运行受阻，可见全身湿热症状的病理变化。,,,,,,,,,,,,SymMap2.0 SMSY75,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12136,pattern,湿热痞满,sensation of fullness due to dampness and heat,指湿热蕴结体内，脏腑经络运行受阻，可见全身湿热症状的病理变化。,,,,,,,,,,,,SymMap2.0 SMSY76,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12137,pattern,湿痰,Damp Phlegm,痰湿内阻，以咳吐多量黏稠痰，痰滑易咯，肢体困重，胸脘痞闷，食少口腻，苔白腻，脉濡缓或滑等为常见症的证候。,,,,,,,,,,,,SymMap2.0 SMSY77,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12138,pattern,湿阻中焦,Retention of Dampness in Mtddle-energizer,即湿邪阻滞脾胃，影响其运化功能。症见头重、怠倦、脘闷、腹胀、纳呆、口粘渴、喜热饮、小便短赤，舌苔厚白或腻，脉缓等。,,,,,,,,,,,,SymMap2.0 SMSY78,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12139,pattern,湿阻气滞,damp obstruction leading to qi stagnation,气机郁滞，湿浊内阻，以胸胁脘腹胀闷窜痛，恶心欲吐，肢体困重，头晕嗜睡，或有浮肿，苔白腻，脉弦滑或濡缓等为常见症的证候。,,,,,,,,,,,,SymMap2.0 SMSY79,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12140,pattern,火毒,fire toxic,是指以局部肿痛严重，伴有恶寒发热，烦躁为主要临床特征的一类病证。,,,,,,,,,,,,SymMap2.0 SMSY80,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12141,pattern,火毒蕴结,accumulation of fire toxins,是指以局部肿痛严重，伴有恶寒发热，烦躁为主要临床特征的一类病证。,,,,,,,,,,,,SymMap2.0 SMSY81,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12142,pattern,热入心包,the heat attacts the pericardium,温热病内陷营血阶段的证型之一。主要证候有高热、神昏、谵语、甚则昏迷不醒、四肢厥逆、或见抽搐等。,,,,,,,,,,,,SymMap2.0 SMSY82,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12143,pattern,热入营血,heat attacking xuefen;heat invading blood ,是指由于感受火热毒邪，或恣食膏粱厚味，脏腑蕴热，亦或是皮肤破损染毒致火毒炽盛，内燔营血所表现出来的局部肿胀，身热夜甚，烦渴，舌红降，脉数一类病证。,,,,,,,,,,,,SymMap2.0 SMSY83,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12144,pattern,热毒,heat toxic,热毒证是以发热为主症，具有流行性和传染性的一类疾病，属温病中瘟疫范畴,,,,,,,,,,,,SymMap2.0 SMSY84,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12145,pattern,热毒内盛,domination of toxin-heat in the body,热毒证是以发热为主症，具有流行性和传染性的一类疾病，属温病中瘟疫范畴,,,,,,,,,,,,SymMap2.0 SMSY85,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12146,pattern,热毒痰火郁结,accumulation of heat toxic and phlegm ,指无形之火与有形之痰煎熬胶结贮积于体内的病证。,,,,,,,,,,,,SymMap2.0 SMSY86,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12147,pattern,热泻,diarrhea due to evil heat,因热迫大肠所引起,,,,,,,,,,,,SymMap2.0 SMSY87,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12148,pattern,热病,heat disease,,,,,,,,,,,,,SymMap2.0 SMSY88,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12149,pattern,热病伤阴,consumption of yin caused by febrile diseases,津液亏虚证是指机体津液亏少，形体、脏腑、官窍失却滋润濡养和充盈，以口渴欲饮、尿少便干、官窍及皮肤干燥等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY89,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12150,pattern,热病气虚,Fever and Qi Deficiency,气虚证是指机体元气不足，脏腑组织机能减退，以神疲乏力、少气懒言、脉虚等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY90,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12151,pattern,热病津伤,impairment of the body fluid ,津液亏虚证是指机体津液亏少，形体、脏腑、官窍失却滋润濡养和充盈，以口渴欲饮、尿少便干、官窍及皮肤干燥等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY91,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12152,pattern,热病神昏,an unconscious patient with febrile diseases,痰火扰神证是指火热痰浊交结，扰乱心神，以狂躁、神昏及痰热症状为主要表现的证。痰火扰神证又称痰火扰心 （闭窍）证。,,,,,,,,,,,,SymMap2.0 SMSY92,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12153,pattern,热痰,heat-phlegm,,,,,,,,,,,,,SymMap2.0 SMSY93,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12154,pattern,热盛伤津,consumption of the body fluid due to excessive heat,津液亏虚证是指机体津液亏少，形体、脏腑、官窍失却滋润濡养和充盈，以口渴欲饮、尿少便干、官窍及皮肤干燥等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY94,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12155,pattern,热结,accumulation of heat,指热邪聚结而出现的病变。,,,,,,,,,,,,SymMap2.0 SMSY95,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12156,pattern,热证,febrile symptoms,是指感受热邪、或阳盛阴虚，人体的机能活动亢进所表现的证候。,,,,,,,,,,,,SymMap2.0 SMSY96,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12157,pattern,燥咳,cough caused by dryness,因肺虚液少或燥邪伤肺所致的咳嗽。,,,,,,,,,,,,SymMap2.0 SMSY97,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12158,pattern,痰厥,adverse rising of phlegm,指因痰盛气闭而引起四肢厥冷，甚至昏厥的病症。,,,,,,,,,,,,SymMap2.0 SMSY98,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12159,pattern,痰壅,accumulation of phlegm,痰证是指痰浊停聚或流窜于脏腑、组织之间，临床以痰多、胸闷、呕恶、眩晕、体胖、包块等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY99,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12160,pattern,痰多,abundant sputum,,,,,,,,,,,,,SymMap2.0 SMSY100,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12161,pattern,痰涎凝聚,phlegmatic saliva accumulated in the interior,痰证是指痰浊停聚或流窜于脏腑、组织之间，临床以痰多、胸闷、呕恶、眩晕、体胖、包块等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY101,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12162,pattern,痰涎壅肺,phlegm-damoness obstructing lung,痰证是指痰浊停聚或流窜于脏腑、组织之间，临床以痰多、胸闷、呕恶、眩晕、体胖、包块等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY102,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12163,pattern,痰涎积滞,stagnation of phlegm and drool,痰证是指痰浊停聚或流窜于脏腑、组织之间，临床以痰多、胸闷、呕恶、眩晕、体胖、包块等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY103,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12164,pattern,痰滞气阻,phlegm and qi obstructing each other,是指气郁痰凝，阻滞胸咽所表现出来的咽中如有物梗赛，胸胁胀痛，苔白腻，脉弦滑的一类病证。,,,,,,,,,,,,SymMap2.0 SMSY104,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12165,pattern,痰滞经络,retention of phlegm in Meridians and Collaterals,痰证是指痰浊停聚或流窜于脏腑、组织之间，临床以痰多、胸闷、呕恶、眩晕、体胖、包块等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY105,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12166,pattern,痰火,phlegm fire,痰火是指无形之火与有形之痰煎熬胶结贮积于肺的病证。,,,,,,,,,,,,SymMap2.0 SMSY106,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12167,pattern,痰热,phlegm heat,痰热壅肺证是指痰热交结，壅滞于肺，肺失清肃，以咳喘、痰黄稠及痰热症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY107,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12168,pattern,痰盛,abundant phlegm,痰证是指痰浊停聚或流窜于脏腑、组织之间，临床以痰多、胸闷、呕恶、眩晕、体胖、包块等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY108,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12169,pattern,痰迷,phlegm covering,痰蒙心神证是指痰浊内盛，蒙蔽心神，以神志抑郁、错乱、痴呆、昏迷及痰浊症状为主要表现的证。痰蒙心神证又称痰迷心窍证。,,,,,,,,,,,,SymMap2.0 SMSY109,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12170,pattern,痰阻,retention of phlegm,是指因嗜酒无度，过食肥甘厚味，损伤脾胃，以致健运失司，水湿内停，积聚生痰，痰阻中焦，清阳不升，头窍失养所表现出来的眩晕，头重昏蒙，舌苔白腻，脉濡滑的一类病证。,,,,,,,,,,,,SymMap2.0 SMSY110,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12171,pattern,痰饮,sputum drink,痰证是指痰浊停聚或流窜于脏腑、组织之间，临床以痰多、胸闷、呕恶、眩晕、体胖、包块等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY111,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12172,pattern,痰饮停滞,stagnation of phlegm retention,痰证是指痰浊停聚或流窜于脏腑、组织之间，临床以痰多、胸闷、呕恶、眩晕、体胖、包块等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY112,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12173,pattern,痰饮停聚,retention of phlegm in the interior,痰证是指痰浊停聚或流窜于脏腑、组织之间，临床以痰多、胸闷、呕恶、眩晕、体胖、包块等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY113,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12174,pattern,痰饮内停,retention of phlegm in the interior,痰证是指痰浊停聚或流窜于脏腑、组织之间，临床以痰多、胸闷、呕恶、眩晕、体胖、包块等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY114,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12175,pattern,痰饮积聚,abdominal mass and gethering of phlegm retention,痰证是指痰浊停聚或流窜于脏腑、组织之间，临床以痰多、胸闷、呕恶、眩晕、体胖、包块等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY115,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12176,pattern,痰饮蓄结,Phlegm build knot,痰证是指痰浊停聚或流窜于脏腑、组织之间，临床以痰多、胸闷、呕恶、眩晕、体胖、包块等为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY116,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12177,pattern,瘀滞,stasis stagnancy ,血瘀证是指瘀血内阻，以疼痛、肿块、出血、瘀血色脉征为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY117,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12178,pattern,瘀滞肿痛,"Stasis, swelling and pain",血瘀证是指瘀血内阻，以疼痛、肿块、出血、瘀血色脉征为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY118,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12179,pattern,瘀肿疼痛,pain caused by ecchymoma,血瘀证是指瘀血内阻，以疼痛、肿块、出血、瘀血色脉征为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY119,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12180,pattern,瘀血,stagnant blood,血瘀证是指瘀血内阻，以疼痛、肿块、出血、瘀血色脉征为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY120,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12181,pattern,瘀血阻络,blood stasis in collaterals,血瘀证是指瘀血内阻，以疼痛、肿块、出血、瘀血色脉征为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY121,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12182,pattern,瘀阻,Stagnation,血瘀证是指瘀血内阻，以疼痛、肿块、出血、瘀血色脉征为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY122,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12183,pattern,瘀阻经闭,amenorrhea due to congestion,多因气滞、寒凝，瘀血阻滞冲任胞脉，积之而成经闭。,,,,,,,,,,,,SymMap2.0 SMSY123,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12184,pattern,积滞不消,indigestion due to accumulation,是指由于饮食不节，损伤脾胃而出现的证候。,,,,,,,,,,,,SymMap2.0 SMSY124,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12185,pattern,积滞内停,accumulation within the body,是指由于饮食不节，损伤脾胃而出现的证候。,,,,,,,,,,,,SymMap2.0 SMSY125,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12186,pattern,积滞泻痢,indigestion accompanied with diarrhea and dysentery,是指由于饮食不节，损伤脾胃而出现的证候。,,,,,,,,,,,,SymMap2.0 SMSY126,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12187,pattern,积滞胀满,dyspeptic abdonimal distention,是指由于饮食不节，损伤脾胃而出现的证候。,,,,,,,,,,,,SymMap2.0 SMSY127,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12188,pattern,精亏,deficiency of spermatozoa,是指肾精亏损、髓海空虚所致的发育迟缓、未老先衰、肢体痿弱不用的一类证候。,,,,,,,,,,,,SymMap2.0 SMSY128,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12189,pattern,精冷,cold sperm,是指男子因真阳不足而引起精气清冷，无生育能力者。,,,,,,,,,,,,SymMap2.0 SMSY129,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12190,pattern,精血不足,deficiency of the essence and blood ,是指肾精亏损、髓海空虚所致的发育迟缓、未老先衰、肢体痿弱不用的一类证候。,,,,,,,,,,,,SymMap2.0 SMSY130,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12191,pattern,精血亏虚,deficiency of the essence and blood ,是指肾精亏损、髓海空虚所致的发育迟缓、未老先衰、肢体痿弱不用的一类证候。,,,,,,,,,,,,SymMap2.0 SMSY131,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12192,pattern,经寒,,寒湿之邪侵袭经脉。,,,,,,,,,,,,SymMap2.0 SMSY132,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12193,pattern,肉食积滞,retention of meat and food in the stomach,是指由于饮食不节，损伤脾胃而出现的证候。,,,,,,,,,,,,SymMap2.0 SMSY133,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12194,pattern,肝气郁结,stagnation of liver-qi,指肝失疏泄，气机郁滞，情志抑郁，气血不畅的病理变化。,,,,,,,,,,,,SymMap2.0 SMSY134,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12195,pattern,肝火,the hepatic fire,指肝经火胜，内扰于肝的一种病理现象。,,,,,,,,,,,,SymMap2.0 SMSY135,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12196,pattern,肝热,heat in liver,,,,,,,,,,,,,SymMap2.0 SMSY136,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12197,pattern,肝肾不足,deficiency of the liver and kidney,是指肝肾精亏血少所表现出来的一类病证。,,,,,,,,,,,,SymMap2.0 SMSY137,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12198,pattern,肝肾亏虚,deficiency of the liver and kidney,是指肝肾精亏血少所表现出来的一类病证。,,,,,,,,,,,,SymMap2.0 SMSY138,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12199,pattern,肝肾虚,asthenia of both liver and kidney; deficiency of both liver and kidney,是指肝肾精亏血少所表现出来的一类病证。,,,,,,,,,,,,SymMap2.0 SMSY139,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12200,pattern,肝肾阴虚,deficiency of the liver-yin and kidney-yin,指肝肾阴液亏虚，虚热内扰，以腰酸胁痛、眩晕、耳鸣、遗精等为主要表现的虚热证候。,,,,,,,,,,,,SymMap2.0 SMSY140,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12201,pattern,肝胃不和,disharmony between the liver and stomach,肝气瘀滞，横逆犯胃，胃失和降，以胃脘、胁肋胀满疼痛，嗳气、呃逆、吞酸，情绪抑郁，不欲食，苔薄黄，脉弦等为常见症的证候。,,,,,,,,,,,,SymMap2.0 SMSY141,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12202,pattern,肝胃气滞,stagnation of qi of the liver and stomach,是指情志不畅，郁怒伤肝，横逆犯胃，导致胃失和降而出现的证候。,,,,,,,,,,,,SymMap2.0 SMSY142,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12203,pattern,肝胆湿热,Dampness and Heat in Liver and Gallbladder,指湿热之邪蕴结肝胆的病证。多由外感湿热之邪，或嗜酒，过食肥甘辛辣，湿邪内生，郁久化热所致，或脾胃运化失常，湿浊内生，蕴而化热，阻遏肝胆而成。,,,,,,,,,,,,SymMap2.0 SMSY143,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12204,pattern,肝虚,liver weakness,,,,,,,,,,,,,SymMap2.0 SMSY144,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12205,pattern,肝郁,liver depression,是指肝失疏泄，气机郁滞，以情志抑郁、胸胁或少腹胀痛等为主要表现的证候。,,,,,,,,,,,,SymMap2.0 SMSY145,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12206,pattern,肝郁化火,the Depression of the liver generates pathogenic fire,是指因情志不遂，或突然遭受精神刺激，或病邪侵扰，导致肝失疏泄，气机郁滞，日久化火，出现胸胁或少腹胀闷窜疼，急躁易怒，头晕胀疼，面红目赤，口苦，咽干，不寐，妇女乳房胀痛，月经不调，痛经，甚则闭经等症状的一种中医证型。,,,,,,,,,,,,SymMap2.0 SMSY146,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12207,pattern,肝郁气滞,liver depression and qi stagnation,是指肝失疏泄，气机郁滞，以情志抑郁、胸胁或少腹胀痛等为主要表现的证候。,,,,,,,,,,,,SymMap2.0 SMSY147,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12208,pattern,肝阳,liver yang,,,,,,,,,,,,,SymMap2.0 SMSY148,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12209,pattern,肝风内动,internal movement of the liver-wind ,肝风内动证是指临床出现眩晕欲仆，震颤，抽搐等症状的病证。,,,,,,,,,,,,SymMap2.0 SMSY149,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12210,pattern,肝风夹痰,Liver wind and phlegm,指肝风夹痰，横窜经络所表现出来的以肢体麻木不仁，甚或瘫痪不遂，或肌肤麻木瘙痒，眩晕，口角流涎等为常见症的一类病症。,,,,,,,,,,,,SymMap2.0 SMSY150,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12211,pattern,肠热,constipation due to heat in the large intestine,小肠实热证是指心火下移小肠，热迫膀胱，气化失司，以小便赤涩疼痛、心烦、舌疮及实热症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY151,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12212,pattern,肠燥,dryness in the intestines,肠燥津亏证是指津液亏损，肠失濡润，传导失职，以大便燥结难下及津亏症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY152,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12213,pattern,肺寒,cold on the lungs,寒邪客肺，肺失宣降，故见咳嗽，气喘，咯稀白痰等症,,,,,,,,,,,,SymMap2.0 SMSY153,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12214,pattern,肺气壅实,stasis of lung-energy,是指邪实气壅，肺气不能宣降导致的证候,,,,,,,,,,,,SymMap2.0 SMSY154,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12215,pattern,肺热,heat in lung,指火热炽盛，壅积于肺，肺失清肃，以咳喘气粗、鼻翼煽动等为主要表现的实热证候。,,,,,,,,,,,,SymMap2.0 SMSY155,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12216,pattern,肺燥,dry lungs ,是指外感燥邪，肺失宣降，以干咳痰少、鼻咽口舌干燥等为主要表现的证候。,,,,,,,,,,,,SymMap2.0 SMSY156,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12217,pattern,肺肾不足,deficiency of the lung and kidney,肺肾阴虚证是指肺肾阴液亏虚，虚热内扰，以干咳、少痰、腰酸、遗精及阴虚症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY157,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12218,pattern,肺肾两虚,asthenia of both the lung and kidney,肺肾阴虚证是指肺肾阴液亏虚，虚热内扰，以干咳、少痰、腰酸、遗精及阴虚症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY158,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12219,pattern,肺胃阴伤,imperiment of yin in lung and stomach,见于温病气分后期，为邪热已退(或渐退)，而肺胃津伤未复之候，病情属虚，病位在肺胃。以干咳，口干舌燥而渴，舌光红少苔，脉细数为辨证要点。多见于风温、春温、暑温、秋燥、温毒等病末期阶段。,,,,,,,,,,,,SymMap2.0 SMSY159,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12220,pattern,肺虚,asthenia of lung,肺气虚证是指肺气虚弱，宣肃、卫外功能减退，以咳嗽、气喘、自汗、易于感冒及气虚症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY160,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12221,pattern,肾虚,deficiency in kidney ,肾气虚弱，以腰酸，耳鸣，性欲减退，头晕健忘，脉弱等为常见症的证候。,,,,,,,,,,,,SymMap2.0 SMSY161,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12222,pattern,肾阳不足,deficiency of kidney-yang,肾阳虚证是指肾阳亏虚，机体失其温煦，以腰膝酸冷、性欲减退、夜尿多及阳虚症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY162,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12223,pattern,肾阳亏虚,deficiency of the kidney-yang,肾阳虚证是指肾阳亏虚，机体失其温煦，以腰膝酸冷、性欲减退、夜尿多及阳虚症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY163,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12224,pattern,肾阳虚,deficiency of the kidney-yang,肾阳虚证是指肾阳亏虚，机体失其温煦，以腰膝酸冷、性欲减退、夜尿多及阳虚症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY164,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12225,pattern,肾阳虚衰,kidney yang deficiency,肾阳虚证是指肾阳亏虚，机体失其温煦，以腰膝酸冷、性欲减退、夜尿多及阳虚症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY165,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12226,pattern,胃寒,the stomach affected by cold,是指脾胃阳气虚衰，过食生冷，或寒邪直中所致阴寒凝滞胃腑的证候。,,,,,,,,,,,,SymMap2.0 SMSY166,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12227,pattern,胃火,the stomach fire,指胃热炽盛化火的病变。,,,,,,,,,,,,SymMap2.0 SMSY167,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12228,pattern,胃火亢盛,excessiveness of the stomach-fire,指胃热炽盛化火的病变。,,,,,,,,,,,,SymMap2.0 SMSY168,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12229,pattern,胃热, stomach heat,指胃热炽盛化火的病变。,,,,,,,,,,,,SymMap2.0 SMSY169,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12230,pattern,胃阴不足,deficiency of the stomach-yin,是指因饮食不节，过食辛辣厚味，积热于内，或热病后期伤津，或情志不畅，气郁化火伤阴，致胃失和降所表现出来的恶心、呕吐或呃逆，口燥咽干，舌红少苔，脉细数一类病证。,,,,,,,,,,,,SymMap2.0 SMSY170,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12231,pattern,胆火挟痰,Bile fire and phlegm,胆郁痰扰证是指痰热内扰，胆气不宁，以胆怯易惊、心烦失眠及痰热症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY171,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12232,pattern,胆胀,distending pain of the hypochondrium due to gallblsdder disorder,胆胀是指胆腑气郁，胆失通降所引起的以右胁胀痛为主要临床表现的一种疾病。,,,,,,,,,,,,SymMap2.0 SMSY172,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12233,pattern,脾寒,a presence of cold in the spleen,脾胃虚寒证是由于素体脾气虚，或脾虚日久，波及脾阳，使脾阳也虚。或贪食生冷，损伤脾阳，导致脾阳虚不能温暖胃肠，寒气自内而生的病证。,,,,,,,,,,,,SymMap2.0 SMSY173,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12234,pattern,脾肺气虚,asthenia of spleen and lung qi; deficiency of spleen and lung,由于脾肺两脏气虚，出现脾失健运，肺失宣降的虚弱证候。,,,,,,,,,,,,SymMap2.0 SMSY174,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12235,pattern,脾肾虚,splenonephric deficiency ,脾肾阳虚证是指脾肾阳气亏虚，温化失职，虚寒内生，以久泄久痢、浮肿、腰腹冷痛及阳虚症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY175,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12236,pattern,脾肾阳虚,deficiency of the spleen-yang and kidney-yang,脾肾阳虚证是指脾肾阳气亏虚，温化失职，虚寒内生，以久泄久痢、浮肿、腰腹冷痛及阳虚症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY176,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12237,pattern,脾胃亏虚,weak spleen and stomach,脾胃气虚，中焦失运，以食欲不振，脘腹痞胀，食后尤甚，大便溏泻，神疲肢倦，舌淡，脉弱等为常见症的证候。,,,,,,,,,,,,SymMap2.0 SMSY177,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12238,pattern,脾胃气滞,stagnation of gastrosplenic qi; stagnation of spleen and stomach qi,指脾胃之气阻滞不畅。,,,,,,,,,,,,SymMap2.0 SMSY178,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12239,pattern,脾胃气虚,eficiency of qi in the spleen and stomach,脾胃气虚，中焦失运，以食欲不振，脘腹痞胀，食后尤甚，大便溏泻，神疲肢倦，舌淡，脉弱等为常见症的证候。,,,,,,,,,,,,SymMap2.0 SMSY179,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12240,pattern,脾胃湿阻气滞,Spleen and stomach dampness block,指湿邪阻滞中焦，运化功能减弱，以脘腹满闷，肢体困重，纳食呆滞等为主要临床特征的外感病。,,,,,,,,,,,,SymMap2.0 SMSY180,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12241,pattern,脾胃虚,weak spleen and stomach,脾胃气虚，中焦失运，以食欲不振，脘腹痞胀，食后尤甚，大便溏泻，神疲肢倦，舌淡，脉弱等为常见症的证候。,,,,,,,,,,,,SymMap2.0 SMSY181,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12242,pattern,脾胃虚寒,cold syndrome of the spleen and the stomach of deficiency type,脾胃虚寒证是由于素体脾气虚，或脾虚日久，波及脾阳，使脾阳也虚。或贪食生冷，损伤脾阳，导致脾阳虚不能温暖胃肠，寒气自内而生的病证。,,,,,,,,,,,,SymMap2.0 SMSY182,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12243,pattern,脾胃虚弱,weak spleen and stomach,脾胃气虚，中焦失运，以食欲不振，脘腹痞胀，食后尤甚，大便溏泻，神疲肢倦，舌淡，脉弱等为常见症的证候。,,,,,,,,,,,,SymMap2.0 SMSY183,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12244,pattern,脾虚,deficiency of spleen,脾气虚证是指脾气不足，运化失职，以纳少、腹胀、便溏及气虚症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY184,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12245,pattern,膀胱虚冷,asthenia cold of bladder,肾阳亏虚，膀胱气化失司，以畏冷肢凉，小腹冷痛，小便失禁或不利，或夜尿多、尿清长，苔白滑等为常见症的证候。,,,,,,,,,,,,SymMap2.0 SMSY185,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12246,pattern,虚劳,consumptive disease ,是由于禀赋薄弱、后天失养及外感内伤等多种原因引起的，以脏腑功能衰退，气血阴阳亏损，日久不复为主要病机，以五脏虚证为主要临床表现的多种慢性虚弱症候的总称。,,,,,,,,,,,,SymMap2.0 SMSY186,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12247,pattern,虚喘,dyspnea due to deficiency,虚喘常由慢性咳嗽、肺痨等肺系病症迁延未愈，病久肺虚，气失所主，肾元亏虚，肾不纳气而短气喘促。,,,,,,,,,,,,SymMap2.0 SMSY187,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12248,pattern,虚寒,deficiency-cold,阳虚证是指人体阳气亏损，其温养、推动、气化等功能减退，以畏寒肢冷为主要表现的虚寒证。,,,,,,,,,,,,SymMap2.0 SMSY188,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12249,pattern,虚烦,fidgetiness due to deficiency,是因虚而致心胸烦热者。,,,,,,,,,,,,SymMap2.0 SMSY189,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12250,pattern,虚热,asthenia-heat,阴虚证是指人体阴液亏少，其滋润、濡养等功能减退，或阴不制阳，阳气偏亢，以口咽干燥、五心烦热、潮热盗汗等为主要表现的虚热证。,,,,,,,,,,,,SymMap2.0 SMSY190,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12251,pattern,虚痨,consumptive disease,是由于禀赋薄弱、后天失养及外感内伤等多种原因引起的，以脏腑功能衰退，气血阴阳亏损，日久不复为主要病机，以五脏虚证为主要临床表现的多种慢性虚弱症候的总称。,,,,,,,,,,,,SymMap2.0 SMSY191,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12252,pattern,虚脱,prostration syndrome,以面色苍白、虚汗淋漓、头昏眼花、肢冷汗出、二便失禁、神情淡漠或烦躁甚则不省人事、脉微欲绝等为特征的内科急症。,,,,,,,,,,,,SymMap2.0 SMSY192,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12253,pattern,虚阳上浮,floating of weak yang,指体内阳气极虚，导致阴寒之气偏盛，格阳于外，阴阳寒热格拒，表现为内真寒外假热的证候。,,,,,,,,,,,,SymMap2.0 SMSY193,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12254,pattern,虚风内动,internal stirring of deficiency-wind,是肾精肝血耗损，虚风内动之候。以手足蠕动，甚或瘛疭，舌干降为辨证要点。,,,,,,,,,,,,SymMap2.0 SMSY194,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12255,pattern,虫积,abdominal pain due to parasitic infestation,虫积肠道证是指蛔虫等寄居肠道，阻滞气机，噬耗营养，以腹痛、面黄体瘦、大便排虫及气滞症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY195,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12256,pattern,血寒,blood cold,血寒证是指寒邪客于血脉，凝滞气机，血行不畅，以拘急冷痛、形寒、肤色紫暗为主要表现的实寒证。,,,,,,,,,,,,SymMap2.0 SMSY196,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12257,pattern,血热,heat in blood,血热证是指火热炽盛，热迫血分，以出血与实热症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY197,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12258,pattern,血热有瘀,heat in blood with ecchymosis,外感火热邪气，或体内阳盛化火，入舍于血，血热互结，煎灼血中津液，使血液黏稠而运行不畅；或热灼脉络，迫血妄行导致内出血，以致血液壅滞于体内某些部位而不散而成瘀血。,,,,,,,,,,,,SymMap2.0 SMSY198,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12259,pattern,血热毒盛,heat invading the blood phase,血热证是指火热炽盛，热迫血分，以出血与实热症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY199,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12260,pattern,血瘀,stasis of blood,血瘀证是指瘀血内阻，以疼痛、肿块、出血、瘀血色脉征为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY200,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12261,pattern,血虚,deficiency of blood,血虚证是指血液亏虚，不能濡养脏腑、经络、组织，以面、睑、唇、舌色淡白，脉细为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY201,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12262,pattern,表虚,Exteriat Syndrome of Deficiency,外邪袭表，腠理不固，营卫之气不和所致的表证。,,,,,,,,,,,,SymMap2.0 SMSY202,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12263,pattern,酒毒伤中,impairment in the body due to alcohol toxin ,,,,,,,,,,,,,SymMap2.0 SMSY203,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12264,pattern,阳亢,excess of yang,肝阳上亢证是指肝肾阴亏，阴不制阳，阳亢于上，以眩晕耳鸣、头目胀痛、头重脚轻、腰膝酸软等上盛下虚症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY204,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12265,pattern,阳毒,yang virulence,邪气深重。,,,,,,,,,,,,SymMap2.0 SMSY205,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12266,pattern,阳虚,yang deficiency,阳虚证是指人体阳气亏损，其温养、推动、气化等功能减退，以畏寒肢冷为主要表现的虚寒证。,,,,,,,,,,,,SymMap2.0 SMSY206,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12267,pattern,阳虚外感,externally infection due to yang deficiency,阳虚证是指人体阳气亏损，其温养、推动、气化等功能减退，以畏寒肢冷为主要表现的虚寒证。,,,,,,,,,,,,SymMap2.0 SMSY207,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12268,pattern,阴亏,deficiency of yin,阴虚证是指人体阴液亏少，其滋润、濡养等功能减退，或阴不制阳，阳气偏亢，以口咽干燥、五心烦热、潮热盗汗等为主要表现的虚热证。,,,,,,,,,,,,SymMap2.0 SMSY208,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12269,pattern,阴寒,coldness of yin,外感之寒邪或阳虚所生之内寒。,,,,,,,,,,,,SymMap2.0 SMSY209,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12270,pattern,阴疽肿毒,toxic swelling due to carbuncle of yin nature,,,,,,,,,,,,,SymMap2.0 SMSY210,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12271,pattern,阴虚,deficiency of yin,阴虚证是指人体阴液亏少，其滋润、濡养等功能减退，或阴不制阳，阳气偏亢，以口咽干燥、五心烦热、潮热盗汗等为主要表现的虚热证。,,,,,,,,,,,,SymMap2.0 SMSY211,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12272,pattern,阴虚火旺,flaming-up of fire due to dificiency of yin,阴虚证是指人体阴液亏少，其滋润、濡养等功能减退，或阴不制阳，阳气偏亢，以口咽干燥、五心烦热、潮热盗汗等为主要表现的虚热证。,,,,,,,,,,,,SymMap2.0 SMSY212,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12273,pattern,阴血不足,insufficiency of the yin-blood,血虚证是指血液亏虚，不能濡养脏腑、经络、组织，以面、睑、唇、舌色淡白，脉细为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY213,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12274,pattern,顽痰,stubborn phlegm,指坚结胶固之痰，亦称老痰、结痰、郁痰。,,,,,,,,,,,,SymMap2.0 SMSY214,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12275,pattern,顽痰胶结,retention of stubborn phlegm,指坚结胶固之痰，亦称老痰、结痰、郁痰。,,,,,,,,,,,,SymMap2.0 SMSY215,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12276,pattern,风寒,wind-cold syndrome,伤寒证是指寒邪外袭于肤表，阻遏卫阳所表现的表实寒证，又称风寒表证,,,,,,,,,,,,SymMap2.0 SMSY216,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12277,pattern,风寒挟湿,wind syndromes of cold type with damp symptoms,指风、寒、湿三种邪气的结合。,,,,,,,,,,,,SymMap2.0 SMSY217,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12278,pattern,风寒湿,wind-cold-damp syndrome,指风、寒、湿三种邪气的结合。,,,,,,,,,,,,SymMap2.0 SMSY218,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12279,pattern,风水,wind water,指风邪外袭，肺卫失宣，水湿泛溢肌肤，以突起头面浮肿及卫表症状为主要表现的证候。,,,,,,,,,,,,SymMap2.0 SMSY219,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12280,pattern,风温初起,onset of affection due to wind-warm syndrome ,风温初起，邪犯肺卫，以发热，微恶风寒，无汗或少汗，头痛，咳嗽，口微渴，舌边尖红，苔薄白，脉浮数等为常见症的风温证候。,,,,,,,,,,,,SymMap2.0 SMSY220,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12281,pattern,风湿,wind-dampness,指风邪与湿邪的结合。,,,,,,,,,,,,SymMap2.0 SMSY221,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12282,pattern,风热,wind and heat,感受风热之邪。,,,,,,,,,,,,SymMap2.0 SMSY222,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12283,pattern,风热郁肺,retention of wind-heat in the lung,风热犯肺证是指由于风热侵犯，肺卫失宣，以咳嗽及风热表证症状为主要表现的证。,,,,,,,,,,,,SymMap2.0 SMSY223,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12284,pattern,风痰,wind-phlegm,外风挟痰为患，或肝风痰浊内扰，以咳吐泡沫痰涎，胸闷，眩晕，头目胀痛；或喉中痰鸣，肢体麻木，口眼喎斜，苔白腻，脉弦滑等为常见症的证候。,,,,,,,,,,,,SymMap2.0 SMSY224,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12285,pattern,食物积滞,food accumulation,是指由于饮食不节，损伤脾胃而出现的证候。,,,,,,,,,,,,SymMap2.0 SMSY225,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12286,pattern,食积,food stagnation,是指由于饮食不节，损伤脾胃而出现的证候。,,,,,,,,,,,,SymMap2.0 SMSY226,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12287,pattern,食积不化,food accumulation,是指由于饮食不节，损伤脾胃而出现的证候。,,,,,,,,,,,,SymMap2.0 SMSY227,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12288,pattern,食积不消,indigestion with food retention,是指由于饮食不节，损伤脾胃而出现的证候。,,,,,,,,,,,,SymMap2.0 SMSY228,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12289,pattern,食积伤酒,Dyspepsia injury wine,是指由于饮酒，损伤脾胃而出现的证候。,,,,,,,,,,,,SymMap2.0 SMSY229,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12290,pattern,饮酒过多,Drinking too much,,,,,,,,,,,,,SymMap2.0 SMSY230,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12291,pattern,饮食不消,indigestion,是指由于饮食不节，损伤脾胃而出现的证候。,,,,,,,,,,,,SymMap2.0 SMSY231,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12292,pattern,饮食停滞,indigestion ,是指由于饮食不节，损伤脾胃而出现的证候。,,,,,,,,,,,,SymMap2.0 SMSY232,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file
+TmpTCH:PATTERN_12293,pattern,饮食积滞,food stagnation,是指由于饮食不节，损伤脾胃而出现的证候。,,,,,,,,,,,,SymMap2.0 SMSY233,2025-11-12,Source: symap.SymMap_v2_0__SMSY_file

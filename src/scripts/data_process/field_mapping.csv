@@ -1,0 +1,41 @@
+data_type,template_field,database,table,db_field,notes
+pattern,label_zh,symap,SymMap_v2_0__SMSY_file,Syndrome_name,中文证候名
+pattern,label_en,symap,SymMap_v2_0__SMSY_file,Syndrome_English,英文证候名
+pattern,definition_zh,symap,SymMap_v2_0__SMSY_file,Syndrome_definition,中文定义
+pattern,sources,symap,SymMap_v2_0__SMSY_file,"""SymMap2.0 SMSY""+Syndrome_id",数据来源
+symptom,label_zh,symap,SymMap_v2_0__SMTS_file,TCM_symptom_name,中文症状名
+symptom,label_en,symap,SymMap_v2_0__SMTS_file,TCM_symptom_name,英文症状名
+symptom,definition_zh,symap,SymMap_v2_0__SMTS_file,Symptom_definition,中文定义
+symptom,definition_en,symap,SymMap_v2_0__SMTS_file,Symptom_definition,英文定义
+symptom,associated_pathomechanism,symap,SymMap_v2_0__SMTS_file,Symptom_property,病机+部分证候（需要分开）
+symptom,sources,symap,SymMap_v2_0__SMTS_file,"""SymMap2.0 SMTS""+TCM_Symptom_id",数据来源
+herb,label_zh,herb2_0,HERB_herb_info_v2,Herb_cn_name,中药中文名
+herb,label_en,herb2_0,HERB_herb_info_v2,Herb_en_name,中药英文名
+herb,latin_name,herb2_0,HERB_herb_info_v2,Herb_latin_name,拉丁名
+herb,has_property,herb2_0,HERB_herb_info_v2,Properties,药性：Warm/Slightly Warm/Neutral/Calm/Cool /Minor Cold/Slightly Cold/Mild
+herb,has_flavor,herb2_0,HERB_herb_info_v2,Properties,药味：Acrid/Bitter/Pungent/Sweet/Slightly Salty/Sour/Tasteless/Bland/Astringent/Salty
+herb,has_meridian_tropism,herb2_0,HERB_herb_info_v2,Meridians,归经
+herb,has_function,herb2_0,HERB_herb_info_v2,Function,功效
+herb,use_part,herb2_0,HERB_herb_info_v2,UsePart,使用部位
+herb,toxicity,herb2_0,HERB_herb_info_v2,Toxicity,毒性
+herb,sources,herb2_0,HERB_herb_info_v2,source_file,数据来源
+herb,xrefs,herb2_0,HERB_herb_info_v2,"Herb_id;SymMap_id;""TCMID: ""+TCMID_id",交叉引用数据库
+herb,label_en,etcm2_0,chinese_medical_materials,name,中药名称
+herb,latin_name,etcm2_0,chinese_medical_materials,latin,拉丁名
+herb,has_property,etcm2_0,chinese_medical_materials,property,性
+herb,has_flavor,etcm2_0,chinese_medical_materials,flavor,味
+herb,has_meridian_tropism,etcm2_0,chinese_medical_materials,meridian_tropism,归经
+formula,label_zh,herb2_0,HERB_formula_info_v2,formula_cn_name,方剂中文名
+formula,label_en,herb2_0,HERB_formula_info_v2,formula_en_name,方剂英文名
+formula,has_synonym_zh,herb2_0,HERB_formula_info_v2,Formula_alias_name,同义词
+formula,has_function,herb2_0,HERB_formula_info_v2,Type,功效
+formula,dosage_form,herb2_0,HERB_formula_info_v2,Dosage_form,剂型
+formula,administration_route,herb2_0,HERB_formula_info_v2,administration,给药途径
+formula,contains_herb,herb2_0,HERB_formula_info_v2,Herbs_in_Chinese,含草药
+formula,treats_pattern,herb2_0,HERB_formula_info_v2,Syndromes_in_Chinese + Syndromes_in_English,与证候的关系
+formula,treats_diseases,herb2_0,HERB_formula_info_v2,Indications_in_Chinese,与疾病的关系
+formula,sources,herb2_0,HERB_formula_info_v2,"source+""Herb2.0""",来源
+formula,xrefs,herb2_0,HERB_formula_info_v2,"Formula_id;""ITCM:""+ITCM_id;""ETCM:""+ETCM_id",交叉引用数据库
+formula,label_zh,etcm2_0,tcm_formulas_cn,name,方剂中文名称
+formula,dosage_form,etcm2_0,tcm_formulas_cn,form_type,剂型
+formula,sources,etcm2_0,tcm_formulas_cn,"""ETCM2"";source",来源
